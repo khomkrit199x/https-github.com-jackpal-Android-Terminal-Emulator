@@ -1,0 +1,1 @@
+Welcome to the Android-Terminal-Emulator wiki!
