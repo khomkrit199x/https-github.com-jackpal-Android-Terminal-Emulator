@@ -2,4 +2,4 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 [[Frequently Asked Questions]]
 
-[[Change History]]
+[[Recent Updates]]
