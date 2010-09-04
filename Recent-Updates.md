@@ -1,5 +1,3 @@
-##Recent Updates
-
 1.0.15:
 
 Fix Swype IME backspace key.
