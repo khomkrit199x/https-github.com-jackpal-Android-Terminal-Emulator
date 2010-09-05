@@ -1,6 +1,16 @@
+1.0.16:
+
+Add support for Swype IME cursor keys. If you install the Swype IME, and switch to the Editing keyboard, you can tap on the Up/Down/Left/Right buttons in the IME and the terminal emulator will send the corresponding escape sequences.
+
+Before you get too excited about this feature, note that the default Android shell doesn't know what to do with the escape sequences. But if you happen to have an advanced shell (such as the ash shell that comes with Busybox) installed, you can use the cursor buttons to edit your command line and navigate through your command history.
+
+Thanks to Todd Musall for contributing this feature.
+
 1.0.15:
 
-Fix Swype IME backspace key.
+Fix the Swype IME backspace key. Previously tapping it did nothing. Now tapping it sends a "DEL" key, which most shells interpret as deleting the character to the left of the cursor.
+
+Thanks to Todd Musall for contributing this feature.
 
 1.0.14:
 
