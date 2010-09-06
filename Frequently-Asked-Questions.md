@@ -5,9 +5,21 @@ A terminal emulator is a program that makes your Android phone act like an old f
 If you don't know what all that means, and why it's cool, then this probably isn't the program for you. (Sorry!)
 
 ## What sort of games does this emulator play?
+
 Sorry, this is a terminal emulator, not a game emulator. It has nothing to do with games.
 
+## Does the Android Terminal Emulator allow me to "Root" or "Hack" my phone?
+
+Sorry, no. The Android Terminal Emulator does not help you root or hack your phone.
+
+## Is the Android Terminal Emulator useful on an ordinary phone, that hasn't been rooted?
+
+Well, personally I wrote the Android Terminal Emulator for use on a "Developer" phone. Developer phones come with root access. So in a way, I guess I haven't had any experience using the Android Terminal Emulator on a non-rooted phone.
+
+However, depending on what you want to do with it, I think that you might find the Android Terminal Emulator useful on an ordinary, unrooted phone. You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Android Terminal Emulator process.
+
 ## Why does the Android Terminal Emulator request Internet and SD Card write permissions?
+
 By itself, the Android Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs, such as "ssh" or "cp" that need to access the Internet and/or write to the sd card.
 
 The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Android Terminal Emulator requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and can write to the SD Card.
