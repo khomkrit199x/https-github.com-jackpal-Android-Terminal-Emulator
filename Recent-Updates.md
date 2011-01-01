@@ -3,12 +3,12 @@
 The UI has been localized for several languages, courtesy the CyanogenMod project.
 
 You can now copy rectangular blocks of text (thanks pelya !)
-   1) Long-press to bring up an "Edit text" menu.
-   2) Choose 'Select text'
-   3) Use your finger to drag-select a block of text.
-        (Note that the text selection occurs 40 pixels above where
-         you touch, so you can see what you are selecting.)
-   4) The selected text is automatically copied to the clipboard.
+
+1. Long-press to bring up an "Edit text" menu
+2. Choose 'Select text'
+3. Use your finger to drag-select a block of text. (Note that the text selection occurs 40 pixels above where you touch, so you can see what you are selecting.)
+4. The selected text is automatically copied to the clipboard.
+
 
 1.0.18:
 
