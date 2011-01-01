@@ -1,3 +1,21 @@
+1.0.19:
+
+The UI has been localized for several languages, courtesy the CyanogenMod project.
+
+You can now copy rectangular blocks of text (thanks pelya !)
+   1) Long-press to bring up an "Edit text" menu.
+   2) Choose 'Select text'
+   3) Use your finger to drag-select a block of text.
+        (Note that the text selection occurs 40 pixels above where
+         you touch, so you can see what you are selecting.)
+   4) The selected text is automatically copied to the clipboard.
+
+1.0.18:
+
+Improved Bluetooth keyboard support.
+
+1.0.17:
+
 1.0.16:
 
 Add support for Swype IME cursor keys. If you install the Swype IME, and switch to the Editing keyboard, you can tap on the Up/Down/Left/Right buttons in the IME and the terminal emulator will send the corresponding escape sequences.
