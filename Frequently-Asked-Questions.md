@@ -18,6 +18,14 @@ Well, personally I wrote the Android Terminal Emulator for use on a "Developer" 
 
 However, depending on what you want to do with it, I think that you might find the Android Terminal Emulator useful on an ordinary, unrooted phone. You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Android Terminal Emulator process.
 
+## Why do I get "permission denied" errors when I try to run commands in the terminal?
+
+This message is being printed out by the Android shell. It means one of two things:
+
+1. It might simply mean that you have misspelled the command name, or are trying to use a command that is not installed on you device. The Android shell will print "permission denied" when it just can't find the command, instead of a more accurate error message like "command not found".
+
+2. It could mean that the command exists, but you don't have permission to run it. By default the Android Terminal Emulator runs using the permissions of the Android Terminal Emulator application. You may need to become "root" in order to gain permissions to run some commands. You can use the "su" command to do this. Of course, most consumer Android devices don't have root access enabled by default, so you may not be able to use the "su" command on your device.
+
 ## Why does the Android Terminal Emulator request Internet and SD Card write permissions?
 
 By itself, the Android Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs, such as "ssh" or "cp" that need to access the Internet and/or write to the sd card.
@@ -47,3 +55,11 @@ Do a web search for "Android Busybox" and read through the results.
 I don't know. Certainly all the guides on the web seem to assume that you need root access.
 
 However, it seems to me that it should be possible to install Busybox without root access if you installed it into the /data/local/bin directory. But I don't have any non-developer phones, so I haven't been able to check if this works with ordinary, non-developer phones.
+
+## I'm building my own Android ROM, can I include Android Terminal Emulator in my ROM?
+
+Sure, go for it. (Android Terminal Emulator is open source, so you can do what you like with it. Please read the license file -- you are required to follow the rules in the licence, which boil down to not changing the license and keeping the license with the source code.)
+
+## What's up with the ZTA Technology version of Terminal Emulator in the market? Are they ripping you off?
+
+I don't know the story behind ZTA's version of Terminal, but it appears to be based on an early version of "Android Terminal Emulator" that was present in the Android source tree several years ago. Since Android Terminal Emulator is open source, there's nothing legally wrong with what ZTA is doing. It is confusing to users to have an old version of Android Terminal emulator available under a different name, but hopefully the market rating system will help people decide which version to use.
