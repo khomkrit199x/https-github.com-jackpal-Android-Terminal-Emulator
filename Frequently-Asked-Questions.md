@@ -32,7 +32,7 @@ By itself, the Android Terminal Emulator doesn't access the Internet or write to
 
 The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Android Terminal Emulator requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and can write to the SD Card.
 
-If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Android Terminal Emulator and compile your own version. (Edit the AndroidManifest?.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
+If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Android Terminal Emulator and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
 ## Why don't the Arrow Keys / DPAD / Trackball work ?
 They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. What's missing is that pre-Gingerbread (pre 2.3) versions of the default Android shell do not handle these escape sequences.  Gingerbread (Android 2.3) and later versions of Android work correctly. But that doesn't help people with older versions of Android.
@@ -40,7 +40,7 @@ They do work, sort of. They send the proper escape sequences for VT-100 terminal
 If you have a Froyo (2.2) or earlier version of Android, you can fix this problem by installing an alternate shell, such as the one in Busybox. The Busybox "ash" shell recognizes the arrow escape sequences sent by the terminal emulator.
 
 ## Why don't you include a telnet or ssh client?
-That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, you can install Busybox, which comes with both a telnet client and a ssh client.
+That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, you can install Busybox, which comes with a telnet client. And I have heard that there is an Android version of "DropBear" that can be used as a ssh client.
 
 ## Could you make tab completion work?
 Similar to the "Arrow Keys" question above, tab completion is the job of the shell, not the terminal emulator. The built-in Android shell application does not provide tab completion. You can turn on tab completion by installing an alternate shell, such as the one that comes with Busybox.
