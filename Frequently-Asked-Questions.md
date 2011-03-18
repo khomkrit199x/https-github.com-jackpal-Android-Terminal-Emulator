@@ -18,6 +18,8 @@ Well, personally I wrote the Android Terminal Emulator for use on a "Developer" 
 
 However, depending on what you want to do with it, I think that you might find the Android Terminal Emulator useful on an ordinary, unrooted phone. You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Android Terminal Emulator process.
 
+You can also run command-line programs that access the Internet.
+
 ## Why do I get "permission denied" errors when I try to run commands in the terminal?
 
 This message is being printed out by the Android shell. It means one of two things:
