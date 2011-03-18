@@ -63,3 +63,7 @@ Sure, go for it. (Android Terminal Emulator is open source, so you can do what y
 ## What's up with the ZTA Technology version of Terminal Emulator in the market? Are they ripping you off?
 
 I don't know the story behind ZTA's version of Terminal, but it appears to be based on an early version of "Android Terminal Emulator" that was present in the Android source tree several years ago. Since Android Terminal Emulator is open source, there's nothing legally wrong with what ZTA is doing. It is confusing to users to have an old version of Android Terminal emulator available under a different name, but hopefully the market rating system will help people decide which version to use.
+
+## How can I get the menu key to work with Android Terminal Emulator on my Nook?
+
+The Nook does not have a physical menu key. If you want Android Terminal Emulator to work with a Nook, you will have to install a version of Android that supports soft menu keys. Android 3.0 (Honeycomb) provides support for soft menu keys.
