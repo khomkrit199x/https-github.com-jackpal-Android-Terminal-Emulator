@@ -1,3 +1,7 @@
+1.0.24:
+
+Show Options Menu button on Honeycomb devices.
+
 1.0.23:
 
 Declare that we don't require touch screen support. Currently this doesn't make any difference, but perhaps in the
@@ -5,7 +9,7 @@ future Android Market will work on devices that don't have touch screens.
 
 1.0.22:
 
-I added support for Android 1.5 (Cupcake) devices. Welcome Cupcake owners!
+Add support for Android 1.5 (Cupcake) devices. Welcome Cupcake owners!
 
 There should be no difference in behavior for devices with newer versions of Android. Nothing added, nothing removed.
 
