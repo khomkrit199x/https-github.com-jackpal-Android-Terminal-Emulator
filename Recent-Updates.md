@@ -1,3 +1,13 @@
+1.0.22:
+
+I added support for Android 1.5 (Cupcake) devices. Welcome Cupcake owners!
+
+There should be no difference in behavior for devices with newer versions of Android. Nothing added, nothing removed.
+
+1.0.21:
+
+1.0.20:
+
 1.0.19:
 
 The UI has been localized for several languages, courtesy the CyanogenMod project.
