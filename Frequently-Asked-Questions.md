@@ -69,3 +69,17 @@ I don't know the story behind ZTA's version of Terminal, but it appears to be ba
 ## How can I get the menu key to work with Android Terminal Emulator on my Nook?
 
 The Nook does not have a physical menu key. If you want Android Terminal Emulator to work with a Nook, you will have to install a version of Android that supports soft menu keys. Android 3.0 (Honeycomb) provides support for soft menu keys.
+
+## How can I contribute a localization?
+
+If you would like to contribute a localization for the Android Terminal Emulator, please:
+
+1. Download these two files:
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
+2. Edit those two files to change the English strings to your language strings.
+3. Email the localized copies of those files to [[mailto:jack.palevich@gmail.com]]
+
+Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, and send me a pull request.
+
+Back to [[Home]] page for the Android Terminal Emulator Wiki
