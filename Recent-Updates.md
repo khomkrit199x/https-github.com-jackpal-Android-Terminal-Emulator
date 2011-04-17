@@ -1,3 +1,7 @@
+1.0.25:
+
+Added Turkish localization, courtesy Doğukan Korkmaztürk <d.korkmazturk@gmail.com>.
+
 1.0.24:
 
 Show Options Menu button on Honeycomb devices.
