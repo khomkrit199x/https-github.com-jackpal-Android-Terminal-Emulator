@@ -78,7 +78,7 @@ If you would like to contribute a localization for the Android Terminal Emulator
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
 2. Edit those two files to change the English strings to your language strings.
-3. Email the localized copies of those files to [[mailto:jack.palevich@gmail.com]]
+3. Email the localized copies of those files to jack.palevich@gmail.com
 
 Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, and send me a pull request.
 
