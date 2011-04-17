@@ -30,7 +30,7 @@ This message is being printed out by the Android shell. It means one of two thin
 
 ## Why does the Android Terminal Emulator request Internet and SD Card write permissions?
 
-By itself, the Android Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs, such as "ssh" or "cp" that need to access the Internet and/or write to the sd card.
+By itself, the Android Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs, such as "telnet" or "cp" that need to access the Internet and/or write to the sd card.
 
 The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Android Terminal Emulator requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and can write to the SD Card.
 
