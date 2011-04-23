@@ -1,3 +1,18 @@
+1.0.26:
+
+Many improvements thanks to new contributor Steven Luo <steven+android@steven676.net>:
+
++ Add a "Fn" key, makes it easier to type special characters.
+     by default the "Fn" key is bound to the Volume Up key.
+
++ Added menu options to hold the Wake Lock and/or WiFi Lock
+   + Wake Lock keeps phone from sleeping while running a command.
+   + WiFi Lock keeps WiFi on while talking to a remote computer.
+
++ Added a service to avoid being killed while in the background.
+
++ Avoid leaking shell process tree when exiting.
+
 1.0.25:
 
 Added Turkish localization, courtesy Doğukan Korkmaztürk <d.korkmazturk@gmail.com>.
