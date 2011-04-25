@@ -1,3 +1,21 @@
+1.0.27:
+
+Fix java.lang.UnsatisfiedLinkError error.
+    
+Change shared library name from libandroidterm to libandroidterm2
+    
+My theory is that this bug is happening on systems that have system versions of the libandroidterm shared library.
+
+Version 1.0.26 of Android Terminal Emulator added a new API, hangupProcessGroup, to the libandroidterm library.
+    
+I think on devices that have libandroidterm in their system library,
+that version takes precedence over the version in the application,
+and so the hangupProcessGroup API is not found.
+    
+By changing the name of the libandroidterm library to libandroidterm2
+we should avoid loading the system version of the
+libandroidterm library.
+
 1.0.26:
 
 Many improvements thanks to new contributor Steven Luo <steven+android@steven676.net>:
