@@ -1,3 +1,11 @@
+1.0.28:
+
+Change shared library name from libandroidterm2 to libjackpal-androidterm2
+
+This avoids a conflict with CyanogenMod, which also uses the library name libandroidterm2.
+
+Thanks to Steven Luo for finding this bug and contributing a patch that fixes it.
+
 1.0.27:
 
 Fix java.lang.UnsatisfiedLinkError error.
