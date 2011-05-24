@@ -1,3 +1,9 @@
+1.0.29:
+
+Fix JNI global reference bug. (Program would crash at start when run on post-3.0 versions of Android.)
+
+This bug has been present in all versions of Android Terminal Emulator, but was not caught until now.
+
 1.0.28:
 
 Change shared library name from libandroidterm2 to libjackpal-androidterm2
