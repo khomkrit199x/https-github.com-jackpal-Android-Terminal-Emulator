@@ -2,7 +2,18 @@
 
 A "shell" is a program that listens to keyboard input from a user and performs actions as directed by the user. Android devices come with a simple shell program. This shell program is mostly undocumented. Since many people are curious about it I thought I'd write up some documentation for it.
 
-#Built in Commands
+    Currently this documentation is incomplete, sorry!
+
+##Common problems
+
+The built-in shell has very limited error handling. When you type a command name incorrectly it will say "permission denied", even though the real problem is that it couldn't find the command:
+
+    $ dir
+    dir: permission denied  <---- this is a misleading error message, should say 'dir: not found'
+    $ ls
+    ... listing of current directory
+
+#The PATH variable
 
 The Android shell will run any program it finds in its PATH. The PATH is a list of directories. You can find out what your shell's PATH is set to by using the built-in echo command:
 
@@ -11,7 +22,20 @@ The Android shell will run any program it finds in its PATH. The PATH is a list 
 
 Depending upon your shell, you may see a different result.
 
-To find out what commands you have available to you, use the "ls" command on each of the directories in the PATH variable:
+#Built in Commands
+
+Every shell has a few built-in commands. Some common built-in commands are:
+
+- echo -- prints text and also current 
+- set -- sets shell variables
+- export -- makes shell variables available to command-line programs
+- cd -- change the current directory.
+- pwd -- print name of the current directory.
+
+#Commands
+To find out what commands you have available to you, use the "ls" command on each of the directories in the PATH variable.
+
+##List of commands
 
     $ ls /data/local/bin
     /data/local/bin: No such file or directory
@@ -47,28 +71,74 @@ This directory does not exist on a Nexus S.
 
     $ ls /system/bin
     am
+
+am is the Android Activity Manager. It's used to start and stop Android activities (e.g. applications) from
+the command line. Type am by itself to get a list of options.
+
     amix
     aplay
+
+Command line audio file player.
+
     app_process
     applypatch
+
+Used to apply patches to android files.
+
     arec
+
+Command line audio recorder.
+
     audioloop
     bluetoothd
+
+BlueTooth daemon
+
     bmgr
+
+Backup manager - type command by itself to get documentation
+
     bootanimation
+
+Draws the boot animation. You may have to reset your phone to get out of this.
+
     brcm_patchram_plus
     bugreport
     cat
+
+Copy the contents of a file to standard output.
+
     chmod
+
+Change the mode of a file (e.g. whether it can be read or written.)
+
     chown
+
+Change the owner of a file.
+
     cmp
+
+Compare two files byte-by-byte
+
     dalvikvm
+
+The dalvik virtual machine. (Used to run Android applications.)
+
     date
+
+Prints the current date and time
+
     dbus-daemon
     dd
+
+Convert and copy a file. By default copies standard in to standard out.
+
     debuggerd
     dexopt
     df
+
+Shows how much space is free on different file systems on your device.
+
     dhcpcd
     dmesg
     dnsmasq
@@ -95,21 +165,43 @@ This directory does not exist on a Nexus S.
     keystore
     keystore_cli
     kill
+
+Send signals to processes.
+
     linker
     ln
+
+Used to set up a file system link.
+
     log
     logcat
+
+Prints the Android runtime log.
+
     logwrapper
     ls
+
+Lists files.
+
     lsmod
     lsof
     make_ext4fs
     mediaserver
     mkdir
+
+Make a directory.
+
     monkey
+
+A program that sends random events, used to test applications. (Like having a monkey playing with the device.)
+
     mount
     mtpd
     mv
+
+Move a file from one directory to another. (Only on the same file system. Use "cat a > b" to copy a
+file between file systems.
+
     nandread
     ndc
     netcfg
@@ -124,16 +216,28 @@ This directory does not exist on a Nexus S.
     pppd
     printenv
     ps
+
+List active processes.
+
     qemu-props
     qemud
     racoon
     radiooptions
     reboot
+
+Reboot the device.
+
     record
     renice
     rild
     rm
+
+Remove a file.
+
     rmdir
+
+Remove a directory.
+
     rmmod
     route
     rtp_test
@@ -154,7 +258,13 @@ This directory does not exist on a Nexus S.
     smd
     stagefright
     start
+
+Starts the Android runtime.
+
     stop
+
+Stops the Android runtime.
+
     surfaceflinger
     svc
     sync
@@ -163,8 +273,14 @@ This directory does not exist on a Nexus S.
     testid3
     toolbox
     top
+
+Shows which processes are currently using the most CPU time.
+
     umount
     uptime
+
+Prints how long your device has been running since it was last booted.
+
     vdc
     vmstat
     vold
@@ -172,6 +288,7 @@ This directory does not exist on a Nexus S.
     wipe
     wpa_cli
     wpa_supplicant
+
     $ ls /system/xbin
     add-property-tag
     btool
@@ -187,12 +304,22 @@ This directory does not exist on a Nexus S.
     procrank
     rawbu
     scp
+
+Secure copy program. (Used to copy files over the network.)
+
     showmap
     showslab
     sqlite3
+
+Used to administer SQLite databases.
+
     strace
+
+System trace command - use to see what system calls a program makes.
+
     su
 
+Start a shell with root privileges.
 
 #Versions of the Android Shell
 
