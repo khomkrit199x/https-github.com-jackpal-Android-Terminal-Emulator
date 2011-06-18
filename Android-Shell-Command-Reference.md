@@ -35,7 +35,15 @@ Every shell has a few built-in commands. Some common built-in commands are:
 #Commands
 To find out what commands you have available to you, use the "ls" command on each of the directories in the PATH variable.
 
+##Finding documentation for the Android commands.
+
+Many of the Android commands are based on standard Linux (or bsd) commands. If you're curious about a command, you can sometimes learn how it works by using the "man" command on a desktop Linux or OSX (Apple Macintosh) computer. The Linux or OSX version of the command may be different in details, but much of the documentation will still apply to the Android version of the command.
+
+Another source of documentation for people without a Linux or OSX machine handy is to use a web browser and use a web search engine to search for the text: "man Linux command-name".
+
 ##List of commands
+
+The following is a list of the commands that are present on a Nexus S phone running an Android 2.3.3 "user-debug" build. Many of these commands are not present on a "user" phone. (They are missing from a "user" phone because they are specific to developing or debugging the Android operating system.)
 
     $ ls /data/local/bin
     /data/local/bin: No such file or directory
