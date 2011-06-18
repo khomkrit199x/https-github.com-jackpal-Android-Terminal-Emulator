@@ -4,6 +4,10 @@ A terminal emulator is a program that makes your Android phone act like an old f
 
 If you don't know what all that means, and why it's cool, then this probably isn't the program for you. (Sorry!)
 
+## Help, I'm lost. How do I use the Android shell?
+
+I've written a brief, incomplete, guide to using the built-in Android shell: [[Android Shell Command Reference]]
+
 ## What sort of games does this emulator play?
 
 Sorry, this is a terminal emulator, not a game emulator. It has nothing to do with games.
