@@ -26,7 +26,7 @@ Depending upon your shell, you may see a different result.
 
 Every shell has a few built-in commands. Some common built-in commands are:
 
-- echo -- prints text and also current 
+- echo -- prints text to stdout. 
 - set -- sets shell variables
 - export -- makes shell variables available to command-line programs
 - cd -- change the current directory.
@@ -96,7 +96,7 @@ BlueTooth daemon
 
     bmgr
 
-Backup manager - type command by itself to get documentation
+Backup manager - type command by itself to get documentation.
 
     bootanimation
 
