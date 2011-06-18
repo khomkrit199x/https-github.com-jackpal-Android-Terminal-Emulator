@@ -1,3 +1,15 @@
+1.0.30:
+
+Fix bugs in terminal emulation: Some versions of 'vi' may work better. Thanks Sam Jacobson for bug report and patch!
+
+You can now choose 'none' as a control key or fn key. Useful if you have a full keyboard (such as on the Acer Transformer). Thanks Eli Grey for idea.
+
+You can now install the Terminal Emulator to the SD card if you like.
+
+Added some missing French translations. Thanks cpasmoi for the pull request!
+
+Made the 'Special Keys' dialog localizable.
+
 1.0.29:
 
 Fix JNI global reference bug. (Program would crash at start when run on post-3.0 versions of Android.)
