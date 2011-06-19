@@ -29,7 +29,18 @@ When a new string is added, it appears (in English) in all translations. In orde
 
 # How to create or improve a localization
 
-If you would like to contribute a localization for the Android Terminal Emulator, please:
+If you would like to improve an existing localization for the Android Terminal Emulator, please:
+
+1. Download these two files (they are the U.S. English version of the UI:
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
+2. Download the corresponding two files for your locale. (instead of XX use your locale's locale code:
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/arrays.xml]]
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/strings.xml]]
+3. Edit the localized files to add the new strings.
+4. Email the localized copies of those files to jack.palevich@gmail.com
+
+If you would like to contribute a new localization for the Android Terminal Emulator, please:
 
 1. Download these two files:
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
@@ -37,7 +48,7 @@ If you would like to contribute a localization for the Android Terminal Emulator
 2. Edit those two files to change the English strings to your language strings.
 3. Email the localized copies of those files to jack.palevich@gmail.com
 
-Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, and send me a pull request:
+Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, build and test the fork to make sure that it works, and send me a pull request:
 
 1. [Install Git](http://git-scm.com/)
 2. Clone the Android Terminal Emulator git repository:
