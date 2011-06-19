@@ -1,8 +1,8 @@
-# How to Help Translate Android Terminal Emulator to a Foreign Language
+# How to Localize Android Terminal Emulator
 
-Android Terminal Emulator is currently (at least partially) translated to these locales:
+Android Terminal Emulator has been localized for these locales:
 
-+ American English
++ U.S. English <-- this is the default.
 + French (fr)
 + German (de)
 + Italian (it)
@@ -13,7 +13,7 @@ Android Terminal Emulator is currently (at least partially) translated to these 
 
 All of these translations (besides American English) have been provided by volunteers. More translations and improved translations are gratefully accepted.
 
-# How Android Localization works
+# How Android localization works
 
 Android localization is done primarily using localized versions of XML files stored in the res/values* directories of the source tree. Please read the official documentation on [Android Resource Localization](http://developer.android.com/guide/topics/resources/localization.html)
 
@@ -27,7 +27,7 @@ As new features are added to Android Terminal Emulator, I add the English string
 
 When a new string is added, it appears (in English) in all translations. In order to appear in the localized language, the same string needs to be added to the corresponding file in the res/values-XX directory, where "XX" is the locale code. (That's the letters that appear in parentheses in the list of supported locales.  
 
-# How to Create or Improve a Localization
+# How to create or improve a localization
 
 To create or improve a localization, first you need to check out the source code for Android Terminal Emulator:
 
