@@ -29,7 +29,15 @@ When a new string is added, it appears (in English) in all translations. In orde
 
 # How to create or improve a localization
 
-To create or improve a localization, first you need to check out the source code for Android Terminal Emulator:
+If you would like to contribute a localization for the Android Terminal Emulator, please:
+
+1. Download these two files:
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
+    * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
+2. Edit those two files to change the English strings to your language strings.
+3. Email the localized copies of those files to jack.palevich@gmail.com
+
+Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, and send me a pull request:
 
 1. [Install Git](http://git-scm.com/)
 2. Clone the Android Terminal Emulator git repository:
@@ -43,3 +51,5 @@ To create or improve a localization, first you need to check out the source code
     + See docs/Building.txt for instructions on how to build Android Terminal Emulator.
 
 5. Send me the changes you made, either as a "diff", a "patch" or as a "github pull request".
+
+Back to [[Home]] page for the Android Terminal Emulator Wiki
