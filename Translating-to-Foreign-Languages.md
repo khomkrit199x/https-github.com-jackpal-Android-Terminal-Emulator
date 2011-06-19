@@ -32,19 +32,25 @@ When a new string is added, it appears (in English) in all translations. In orde
 If you would like to improve an existing localization for the Android Terminal Emulator, please:
 
 1. Download these two files (they are the U.S. English version of the UI:
+
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
+
 2. Download the corresponding two files for your locale. (instead of XX use your locale's locale code:
+
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/strings.xml]]
+
 3. Edit the localized files to add the new strings.
 4. Email the localized copies of those files to jack.palevich@gmail.com
 
 If you would like to contribute a new localization for the Android Terminal Emulator, please:
 
 1. Download these two files:
+
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
+
 2. Edit those two files to change the English strings to your language strings.
 3. Email the localized copies of those files to jack.palevich@gmail.com
 
