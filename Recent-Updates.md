@@ -1,3 +1,11 @@
+1.0.31:
+
+Improved Italian localization. Thanks to fireb33@gmail.com
+
+You can now specify an initial command string when starting Android Terminal Emulator from another program using an intent. Thanks to Christoph Schmidt-Hieber, M.D. c.schmidt-hieber@ucl.ac.uk
+
+The Control-0-9 and Fn-0-9 key assignments have been reworked to be more compatible with Debian Xterm. Thanks to Steven Luo, steven+android@steven676.net
+
 1.0.30:
 
 Fix bugs in terminal emulation: Some versions of 'vi' may work better. Thanks Sam Jacobson for bug report and patch!
