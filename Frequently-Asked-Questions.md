@@ -18,9 +18,7 @@ Sorry, no. The Android Terminal Emulator does not help you root or hack your pho
 
 ## Is the Android Terminal Emulator useful on an ordinary phone, that hasn't been rooted?
 
-Well, personally I wrote the Android Terminal Emulator for use on a "Developer" phone. Developer phones come with root access. So in a way, I guess I haven't had any experience using the Android Terminal Emulator on a non-rooted phone.
-
-However, depending on what you want to do with it, I think that you might find the Android Terminal Emulator useful on an ordinary, unrooted phone. You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Android Terminal Emulator process.
+It is somewhat useful on an ordinary phone. You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Android Terminal Emulator process.
 
 You can also run command-line programs that access the Internet.
 
