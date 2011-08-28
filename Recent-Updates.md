@@ -1,3 +1,11 @@
+1.0.32:
+
+Added multiple terminal windows! (Use menu item New Window to create.)  You can swipe left/right to switch between windows. Thanks to Steven Luo, steven+android@steven676.net
+
+Improved text rendering for non-integer-width font sizes.
+
+Improved Italian localization (bug fixes). Thanks to fireb33@gmail.com
+
 1.0.31:
 
 Improved Italian localization. Thanks to fireb33@gmail.com
