@@ -56,9 +56,7 @@ Busybox is a collection of Linux utility programs that is designed to be run on 
 Do a web search for "Android Busybox" and read through the results.
 
 ## Do I need root access to install and use Busybox?
-I don't know. Certainly all the guides on the web seem to assume that you need root access.
-
-However, it seems to me that it should be possible to install Busybox without root access if you installed it into the /data/local/bin directory. But I don't have any non-developer phones, so I haven't been able to check if this works with ordinary, non-developer phones.
+No! If you have Android 2.3 or newer, see [[Installing BusyBox without Rooting your Phone]]
 
 ## I'm building my own Android ROM, can I include Android Terminal Emulator in my ROM?
 
