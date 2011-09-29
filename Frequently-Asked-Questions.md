@@ -44,7 +44,7 @@ They do work, sort of. They send the proper escape sequences for VT-100 terminal
 If you have a Froyo (2.2) or earlier version of Android, you can fix this problem by installing an alternate shell, such as the one in Busybox. The Busybox "ash" shell recognizes the arrow escape sequences sent by the terminal emulator.
 
 ## Why don't you include a telnet or ssh client?
-That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, you can install Busybox, which comes with a telnet client. And I have heard that there is an Android version of "DropBear" that can be used as a ssh client.
+That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, see [[Installing BusyBox and ssh without Rooting your Device]]
 
 ## Could you make tab completion work?
 Similar to the "Arrow Keys" question above, tab completion is the job of the shell, not the terminal emulator. The built-in Android shell application does not provide tab completion. You can turn on tab completion by installing an alternate shell, such as the one that comes with Busybox.
@@ -56,7 +56,7 @@ Busybox is a collection of Linux utility programs that is designed to be run on 
 Do a web search for "Android Busybox" and read through the results.
 
 ## Do I need root access to install and use Busybox?
-No! If you have Android 2.3 or newer, see [[Installing BusyBox without Rooting your Phone]]
+No! If you have Android 2.3 or newer, see [[Installing BusyBox and ssh without Rooting your Device]]
 
 ## I'm building my own Android ROM, can I include Android Terminal Emulator in my ROM?
 
