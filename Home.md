@@ -10,7 +10,7 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 [[Translating to Foreign Languages]]
 
-[[Installing BusyBox without Rooting your Phone]]
+[[Installing BusyBox and ssh without Rooting your Device]]
 
 [Source](http://github.com/jackpal/Android-Terminal-Emulator/)
 
