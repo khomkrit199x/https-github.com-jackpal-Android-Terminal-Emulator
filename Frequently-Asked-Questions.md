@@ -43,6 +43,14 @@ They do work, sort of. They send the proper escape sequences for VT-100 terminal
 
 If you have a Froyo (2.2) or earlier version of Android, you can fix this problem by installing an alternate shell, such as the one in Busybox. The Busybox "ash" shell recognizes the arrow escape sequences sent by the terminal emulator.
 
+## Swype soft keyboard has problems typing a lowercase 'i'. Is there a work-around?
+
+Several people have reported this bug. Unfortunately, I can't reproduce it using Swype 3.25 Beta on Android 2.3.6. Maybe it's fixed in the latest version of Swype. Please try installing Swype 3.25 or later and see if that fixes the problem.
+
+## SlideIt soft keyboard always types upper-case letters. Is there a work-around?
+
+I have reproduced this with SlideIt version 4.0.1 on Android 2.3.6. There is a work-around, which is to tap on the "ABC" button on the upper-right-hand-corner of the SlideIt soft keyboard. This switches SlideIt into letter-at-a-time mode.
+
 ## Why don't you include a telnet or ssh client?
 That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, see [[Installing BusyBox and ssh without Rooting your Device]]
 
