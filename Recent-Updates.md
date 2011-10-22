@@ -1,5 +1,5 @@
 1.0.33:
-Partial UTF-8 support. (Must enable in preferences and reset term.) Thanks to Steven Luo, steven+android@steven676.net
+[[Unicode UTF-8 Support]]. Thanks to Steven Luo, steven+android@steven676.net
 
 Many bug fixes, again thanks to Steven Luo.
 
