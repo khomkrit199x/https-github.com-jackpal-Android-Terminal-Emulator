@@ -1,3 +1,14 @@
+1.0.33:
+Partial UTF-8 support. (Must enable in preferences and reset term.) Thanks to Steven Luo, steven+android@steven676.net
+
+Many bug fixes, again thanks to Steven Luo.
+
+Updated status bar icon to match ui guidelines.
+
+Improved Italian localization thanks to fireb33@gmail.com
+
+Basque localization thanks to asier.iturralde@gmail.com
+
 1.0.32:
 
 Added multiple terminal windows! (Use menu item New Window to create.)  You can swipe left/right to switch between windows. Thanks to Steven Luo, steven+android@steven676.net
