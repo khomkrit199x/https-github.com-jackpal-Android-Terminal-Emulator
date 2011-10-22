@@ -4,6 +4,8 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 [[Recent Updates]]
 
+[[Unicode UTF-8 Support]]
+
 [[Android Shell Command Reference]]
 
 [[Launching Android Terminal Emulator from another App]] - a note for developers.
