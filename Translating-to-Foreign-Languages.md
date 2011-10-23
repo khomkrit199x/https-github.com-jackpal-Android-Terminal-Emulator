@@ -3,6 +3,7 @@
 Android Terminal Emulator has been localized for these locales:
 
 + U.S. English <-- this is the default.
++ Basque (en)
 + French (fr)
 + German (de)
 + Italian (it)
