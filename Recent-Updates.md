@@ -1,3 +1,10 @@
+1.0.34:
+Fix two bugs:
+
++ Swype Keyboard didn't work. (Reverted a seemingly innocent change. IMEs are error prone.)
++ Wouldn't start on some versions of Android. (Was accidentally using an API level 11 API in a class
+that got loaded in API level 10 devices.)
+
 1.0.33:
 [[Unicode UTF-8 Support]]. Thanks to Steven Luo, steven+android@steven676.net
 
