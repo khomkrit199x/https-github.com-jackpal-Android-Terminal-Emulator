@@ -14,6 +14,8 @@ Android Terminal Emulator has been localized for these locales:
 
 All of these translations (besides American English) have been provided by volunteers. More translations and improved translations are gratefully accepted.
 
+You don't have to be a programmer to create the translations, all you need is a text editor, some knowledge of technical English, and of course knowledge of the technical version of your own language.
+
 # How Android localization works
 
 Android localization is done primarily using localized versions of XML files stored in the res/values* directories of the source tree. Please read the official documentation on [Android Resource Localization](http://developer.android.com/guide/topics/resources/localization.html)
@@ -28,24 +30,32 @@ As new features are added to Android Terminal Emulator, I add the English string
 
 When a new string is added, it appears (in English) in all translations. In order to appear in the localized language, the same string needs to be added to the corresponding file in the res/values-XX directory, where "XX" is the locale code. (That's the letters that appear in parentheses in the list of supported locales.  
 
-# How to create or improve a localization
+# How to improve a localization or create a brand-new localization.
 
-If you would like to improve an existing localization for the Android Terminal Emulator, please:
+First, send me an email so I know you're working on it!
+
+The process is slightly different depending upon whether you are improving an existing localization or creating a brand new localization.
+
+## Improving an existing localization
+
+To improve an existing localization you'll need both the English version of the files as well as the existing localized versions of the files.
 
 1. Download these two files (they are the U.S. English version of the UI:
 
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values/strings.xml]]
 
-2. Download the corresponding two files for your locale. (instead of XX use your locale's locale code:
+2. Download the corresponding two files for your locale. (instead of XX use your locale's locale code).
 
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/arrays.xml]]
     * [[https://github.com/jackpal/Android-Terminal-Emulator/blob/master/res/values-XX/strings.xml]]
 
-3. Edit the localized files to add the new strings.
+3. Edit the localized files to add the new strings from the original English files.
 4. Email the localized copies of those files to jack.palevich@gmail.com
 
-If you would like to contribute a new localization for the Android Terminal Emulator, please:
+## Creating a brand new localization
+
+To contribute a new localization for the Android Terminal Emulator, please:
 
 1. Download these two files:
 
@@ -54,6 +64,8 @@ If you would like to contribute a new localization for the Android Terminal Emul
 
 2. Edit those two files to change the English strings to your language strings.
 3. Email the localized copies of those files to jack.palevich@gmail.com
+
+## If you know how to use github and compile Android apps
 
 Alternately, if you know how to use github and write Android applications, you can fork the Android Terminal Emulator project, add the localization to your fork, build and test the fork to make sure that it works, and send me a pull request:
 
