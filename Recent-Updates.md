@@ -1,3 +1,6 @@
+1.0.35:
+Fixed status bar icon style for 2.2+ devices.
+
 1.0.34:
 Fix two bugs:
 
