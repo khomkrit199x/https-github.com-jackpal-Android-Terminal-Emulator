@@ -70,4 +70,36 @@ Alternately, if you know how to use github and write Android applications, you c
 
 5. Send me the changes you made, either as a "diff", a "patch" or as a "github pull request".
 
+## Example format
+
+If you open the first file, arrays.xml, in a text editor you will see that it starts like this:
+
+    <resources>
+        <string-array name="entries_statusbar_preference">
+            <item>Show status bar</item>
+            <item>Hide status bar</item>
+        </string-array>
+
+        <!-- Do not localize entryvalues -->
+        <string-array name="entryvalues_statusbar_preference">
+            <item>1</item>
+            <item>0</item>
+        </string-array>
+
+Notice that some of the items have "Do not localize" comments above them. That's because these items are not read by people, they are used internally by the program, and should stay in their original form, even in non-English languages.
+
+In this section of text you only need to localize the "Show status bar" and "Hide status bar" text. Here is the same section of the file, "localized" by being changed to upper case:
+
+    <resources>
+        <string-array name="entries_statusbar_preference">
+            <item>SHOW STATUS BAR</item>
+            <item>HIDE STATUS BAR</item>
+        </string-array>
+
+        <!-- Do not localize entryvalues -->
+        <string-array name="entryvalues_statusbar_preference">
+            <item>1</item>
+            <item>0</item>
+        </string-array>
+
 Back to [[Home]] page for the Android Terminal Emulator Wiki
