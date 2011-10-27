@@ -84,7 +84,13 @@ See the instructions here: [[Translating to Foreign Languages]]
 
 ## Why isn't Android Terminal Emulator available on my x86 Android device?
 
-Android Terminal Emulator supports x86 devices, and runs fine on the Android 4.0 x86 emulator.
+Android Terminal Emulator uses the Native Development Kit (NDK) to access Linux
+APIs required to provide a Linux shell.
 
 Unfortunately there are currently no publicly available Android devices that support the x86 NDK.
-Hopefully that will change in the future.
+
+Therefore, currently Android Terminal Emulator is not available for x86 Android devices.
+
+Android Terminal Emulator is compiled with support for x86 devices, and should therefore be able to run on x86 devices as soon as x86 devices that support the NDK become available.
+
+For what it's worth, Android Terminal Emulator runs fine on the Android 4.0 x86 emulator.
