@@ -81,3 +81,10 @@ The Nook does not have a physical menu key. If you want Android Terminal Emulato
 ## How can I contribute a localization?
 
 See the instructions here: [[Translating to Foreign Languages]]
+
+## Why isn't Android Terminal Emulator available on my x86 Android device?
+
+Android Terminal Emulator supports x86 devices, and runs fine on the Android 4.0 x86 emulator.
+
+Unfortunately there are currently no publicly available Android devices that support the x86 NDK.
+Hopefully that will change in the future.
