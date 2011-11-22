@@ -4,9 +4,10 @@
 
 New features:
 
- + Back key now sends "ESC".
+ + Back key now leaves the terminal session running.
+ + Back key can also be configured to send "ESC" or "TAB".
  + $TERM is set to "screen"
- + Exiting a terminal session (e.g. by typing "exit" or "control-D" closes the window.
+ + Exiting a terminal session (e.g. by typing "exit" or "control-D") closes the window.
  + Preferences can be used to change the default behavior for all of the above.
  + Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
    "screen", and "linux" style terminals should be supported.
