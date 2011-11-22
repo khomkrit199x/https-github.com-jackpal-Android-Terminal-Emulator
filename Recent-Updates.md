@@ -17,6 +17,8 @@ Bug Fixes:
 
 (Thanks to Steven Luo for most of the above features and fixes.)
 
+(Special thanks and apologies to tshirtman @ Github -- he sent me a pull request for changing the Back key to send ESC back in September, but I spaced out and forgot about it until now. D'Oh!)
+
 Improved French Translation (Thanks eauland@github!)
 
 1.0.35:
