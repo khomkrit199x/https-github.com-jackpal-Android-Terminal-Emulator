@@ -5,7 +5,7 @@
 New features:
 
  + Back key now leaves the terminal session running.
- + Back key can also be configured to send "ESC" or "TAB".
+   + Back key can also be configured to send "ESC" or "TAB".
  + $TERM is set to "screen"
  + Exiting a terminal session (e.g. by typing "exit" or "control-D") closes the window.
  + Preferences can be used to change the default behavior for all of the above.
