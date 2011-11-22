@@ -8,6 +8,9 @@ New features:
  + Preferences for all of the above.
  + Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
    "screen", and "linux" style terminals should be supported.
+     + Half-bright black now supported.
+     + vt100 extended characters are now supported. (Boxes and lines.)
+     + Fixed bug related to tabbing while on a tab stop.
  + Improved French Translation (Thanks eauland@github!)
 
 Bug Fixes:
