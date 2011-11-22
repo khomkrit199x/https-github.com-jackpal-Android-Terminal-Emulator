@@ -23,17 +23,20 @@ Bug Fixes:
 
 (Special thanks and apologies to tshirtman @ Github -- he sent me a pull request for changing the Back key to send ESC back in September, but I spaced out and forgot about it until now. D'Oh!)
 
-1.0.35:
+### 1.0.35
+
 Fixed status bar icon style for 2.2+ devices.
 
-1.0.34:
+### 1.0.34
+
 Fix two bugs:
 
  + Swype Keyboard didn't work. (Reverted a seemingly innocent change. IMEs are error prone.)
  + Wouldn't start on some versions of Android. (Was accidentally using an API level 11 API in a class
    that got loaded in API level 10 devices.)
 
-1.0.33:
+### 1.0.33
+
 [[Unicode UTF-8 Support]]. Thanks to Steven Luo, steven+android@steven676.net
 
 Many bug fixes, again thanks to Steven Luo.
@@ -44,7 +47,7 @@ Improved Italian localization thanks to fireb33@gmail.com
 
 Basque localization thanks to asier.iturralde@gmail.com
 
-1.0.32:
+### 1.0.32
 
 Added multiple terminal windows! (Use menu item New Window to create.)  You can swipe left/right to switch between windows. Thanks to Steven Luo, steven+android@steven676.net
 
@@ -52,7 +55,7 @@ Improved text rendering for non-integer-width font sizes.
 
 Improved Italian localization (bug fixes). Thanks to fireb33@gmail.com
 
-1.0.31:
+### 1.0.31
 
 Improved Italian localization. Thanks to fireb33@gmail.com
 
@@ -60,7 +63,7 @@ You can now specify an initial command string when starting Android Terminal Emu
 
 The Control-0-9 and Fn-0-9 key assignments have been reworked to be more compatible with Debian Xterm. Thanks to Steven Luo, steven+android@steven676.net
 
-1.0.30:
+### 1.0.30
 
 Fix bugs in terminal emulation: Some versions of 'vi' may work better. Thanks Sam Jacobson for bug report and patch!
 
@@ -72,13 +75,13 @@ Added some missing French translations. Thanks cpasmoi for the pull request!
 
 Made the 'Special Keys' dialog localizable.
 
-1.0.29:
+### 1.0.29
 
 Fix JNI global reference bug. (Program would crash at start when run on post-3.0 versions of Android.)
 
 This bug has been present in all versions of Android Terminal Emulator, but was not caught until now.
 
-1.0.28:
+### 1.0.28:
 
 Change shared library name from libandroidterm2 to libjackpal-androidterm2
 
@@ -86,7 +89,7 @@ This avoids a conflict with CyanogenMod, which also uses the library name liband
 
 Thanks to Steven Luo for finding this bug and contributing a patch that fixes it.
 
-1.0.27:
+### 1.0.27:
 
 Fix java.lang.UnsatisfiedLinkError error.
     
@@ -104,22 +107,22 @@ By changing the name of the libandroidterm library to libandroidterm2
 we should avoid loading the system version of the
 libandroidterm library.
 
-1.0.26:
+### 1.0.26
 
 Many improvements thanks to new contributor Steven Luo <steven+android@steven676.net>:
 
-+ Add a "Fn" key, makes it easier to type special characters.
+ + Add a "Fn" key, makes it easier to type special characters.
      by default the "Fn" key is bound to the Volume Up key.
 
-+ Added menu options to hold the Wake Lock and/or WiFi Lock
+ + Added menu options to hold the Wake Lock and/or WiFi Lock
    + Wake Lock keeps phone from sleeping while running a command.
    + WiFi Lock keeps WiFi on while talking to a remote computer.
 
-+ Added a service to avoid being killed while in the background.
+ + Added a service to avoid being killed while in the background.
 
-+ Avoid leaking shell process tree when exiting.
+ + Avoid leaking shell process tree when exiting.
 
-1.0.25:
+### 1.0.25
 
 Added Turkish localization, courtesy Doğukan Korkmaztürk <d.korkmazturk@gmail.com>.
 
@@ -127,7 +130,7 @@ Added Turkish localization, courtesy Doğukan Korkmaztürk <d.korkmazturk@gmail.
 
 Show Options Menu button on Honeycomb devices.
 
-1.0.23:
+### 1.0.23
 
 Declare that we don't require touch screen support. Currently this doesn't make any difference, but perhaps in the
 future Android Market will work on devices that don't have touch screens.
@@ -138,11 +141,11 @@ Add support for Android 1.5 (Cupcake) devices. Welcome Cupcake owners!
 
 There should be no difference in behavior for devices with newer versions of Android. Nothing added, nothing removed.
 
-1.0.21:
+### 1.0.21
 
-1.0.20:
+### 1.0.20
 
-1.0.19:
+### 1.0.19
 
 The UI has been localized for several languages, courtesy the CyanogenMod project.
 
@@ -153,14 +156,15 @@ You can now copy rectangular blocks of text (thanks pelya !)
 3. Use your finger to drag-select a block of text. (Note that the text selection occurs 40 pixels above where you touch, so you can see what you are selecting.)
 4. The selected text is automatically copied to the clipboard.
 
-
-1.0.18:
+### 1.0.18
 
 Improved Bluetooth keyboard support.
 
-1.0.17:
+### 1.0.17
 
-1.0.16:
+Don't remember what changed. :-(
+
+### 1.0.16
 
 Add support for Swype IME cursor keys. If you install the Swype IME, and switch to the Editing keyboard, you can tap on the Up/Down/Left/Right buttons in the IME and the terminal emulator will send the corresponding escape sequences.
 
@@ -168,42 +172,42 @@ Before you get too excited about this feature, note that the default Android she
 
 Thanks to Todd Musall for contributing this feature.
 
-1.0.15:
+### 1.0.15
 
 Fix the Swype IME backspace key. Previously tapping it did nothing. Now tapping it sends a "DEL" key, which most shells interpret as deleting the character to the left of the cursor.
 
 Thanks to Todd Musall for contributing this feature.
 
-1.0.14:
+### 1.0.14
 
 Fixed crash that sometimes occurred when rotating portrait to landscape.
 
-1.0.13:
+### 1.0.13
 
 You can now use the volume-up or volume-down key as the control key. This is especially useful on phones that lack any other hard keys, such as the Samsung Galaxy S. Thanks to Todd Musall for writing and contributing this feature!
 
-1.0.12:
+### 1.0.12
 
 By popular demand, implement a work around for determining the visible portion of the terminal screen when the soft keyboard is visible. Should work for portrait and landscape, and with or without status bar. Whew!
 
-1.0.11:
+### 1.0.11
 
 reset everyone's status bar to 'on'. If they want the status bar off, they have to set the preference again. I did this because the soft keyboard works better if the status bar is on. People who upgraded to 1.0.9 had the status bar automatically turned off, which broke their soft keyboard. Now it should work again. (Software development is hard!)
 
-1.0.10:
+### 1.0.10
 
 default the status bar to "on", because turning the status bar off causes the app to become a "full screen" app, and the IME system doesn't resize the view for full screen apps.
 
-1.0.9:
+### 1.0.9
 
 show/hide status bar preference.
 toggle soft keyboard menu item.
 
-1.0.8:
+### 1.0.8
 
 longpress to copy/paste.
 
-1.0.5:
+### 1.0.5
 
 Add Internet and SD Card permissions to allow apps run from the emulator to access
 the Internet and write to the SD card.
