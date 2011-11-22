@@ -18,7 +18,11 @@ New features:
 
 Bug Fixes:
 
- + Reset Terminal now works.
+ + Reset Terminal now resets the state of the terminal emulator while keeping the terminal session active.
+   + Use this when the terminal emulator is in a strange mode and you want to restore it to normal
+     operation.
+     + This might happen if you cat a binary file.
+   + Use "Close Window" to get the old behavior of Reset Terminal.
  + The soft keyboard should now be visible by default on devices which don't
    have a hard keyboard.
 
