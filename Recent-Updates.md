@@ -1,4 +1,4 @@
-### 1.0.36
+### 1.0.38
 
 (Thanks to Steven Luo for most of the following features and bug fixes.)
 
