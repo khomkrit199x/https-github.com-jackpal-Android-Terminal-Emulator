@@ -1,17 +1,17 @@
 ### 1.0.36
 
 New features:
-+ Back key now sends "ESC".
-+ $TERM is set to "screen"
-+ Exiting terminal session closes window.
-+ Preferences for all of the above.
-+ Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
-"screen", and "linux" style terminals should be supported.
+ + Back key now sends "ESC".
+ + $TERM is set to "screen"
+ + Exiting terminal session closes window.
+ + Preferences for all of the above.
+ + Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
+   "screen", and "linux" style terminals should be supported.
 
 Bug Fixes:
-+ Reset Terminal now works.
-+ The soft keyboard should now be visible by default on devices which don't
-have a hard keyboard.
+ + Reset Terminal now works.
+ + The soft keyboard should now be visible by default on devices which don't
+   have a hard keyboard.
 
 (Thanks to Steven Luo for most of the above features and fixes.)
 
