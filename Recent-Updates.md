@@ -1,6 +1,7 @@
 ### 1.0.36
 
 New features:
+
  + Back key now sends "ESC".
  + $TERM is set to "screen"
  + Exiting terminal session closes window.
@@ -9,6 +10,7 @@ New features:
    "screen", and "linux" style terminals should be supported.
 
 Bug Fixes:
+
  + Reset Terminal now works.
  + The soft keyboard should now be visible by default on devices which don't
    have a hard keyboard.
