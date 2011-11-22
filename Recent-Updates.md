@@ -1,11 +1,13 @@
 ### 1.0.36
 
+(Thanks to Steven Luo for most of the following features and bug fixes.)
+
 New features:
 
  + Back key now sends "ESC".
  + $TERM is set to "screen"
- + Exiting terminal session closes window.
- + Preferences for all of the above.
+ + Exiting a terminal session (e.g. by typing "exit" or "control-D" closes the window.
+ + Preferences can be used to change the default behavior for all of the above.
  + Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
    "screen", and "linux" style terminals should be supported.
      + Half-bright black now supported.
@@ -19,7 +21,12 @@ Bug Fixes:
  + The soft keyboard should now be visible by default on devices which don't
    have a hard keyboard.
 
-(Thanks to Steven Luo for most of the above features and fixes.)
+Internal changes:
+
+ + The JNI library name is now jackpal-androidterm3.so
+   + This change was made because the library API has changed incompatibly.
+   + The hope is that this new name will help avoid problems with custom ROMs that
+     include their own version of Android Terminal Emulator's JNI library.
 
 (Special thanks and apologies to tshirtman @ Github -- he sent me a pull request for changing the Back key to send ESC back in September, but I spaced out and forgot about it until now. D'Oh!)
 
