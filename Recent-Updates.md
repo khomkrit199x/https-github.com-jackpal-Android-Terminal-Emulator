@@ -1,12 +1,31 @@
+### 1.0.36
+
+New features:
++ Back key now sends "ESC".
++ $TERM is set to "screen"
++ Exiting terminal session closes window.
++ Preferences for all of the above.
++ Improved terminal emulation. Pretty much everything termcap uses on popular Linux distros for "vt100",
+"screen", and "linux" style terminals should be supported.
+
+Bug Fixes:
++ Reset Terminal now works.
++ The soft keyboard should now be visible by default on devices which don't
+have a hard keyboard.
+
+(Thanks to Steven Luo for most of the above features and fixes.)
+
+Improved French Translation (Thanks eauland@github!)
+
 1.0.35:
 Fixed status bar icon style for 2.2+ devices.
 
 1.0.34:
 Fix two bugs:
 
-+ Swype Keyboard didn't work. (Reverted a seemingly innocent change. IMEs are error prone.)
-+ Wouldn't start on some versions of Android. (Was accidentally using an API level 11 API in a class
-that got loaded in API level 10 devices.)
+ + Swype Keyboard didn't work. (Reverted a seemingly innocent change. IMEs are error prone.)
+ + Wouldn't start on some versions of Android. (Was accidentally using an API level 11 API in a class
+   that got loaded in API level 10 devices.)
 
 1.0.33:
 [[Unicode UTF-8 Support]]. Thanks to Steven Luo, steven+android@steven676.net
