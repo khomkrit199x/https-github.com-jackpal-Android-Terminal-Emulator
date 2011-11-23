@@ -1,3 +1,10 @@
+### 1.0.39
+
+ + Fix bug where "Reset Term" was not automatically refreshing the display.
+ + The "Window #" toasts are now localizable.
+ + Additional improvements to French localization courtesy eauland@github
+ + Fixed syntax error in menu.xml file. (Not sure how it built with that error. :-) )
+
 ### 1.0.38
 
 (Thanks to Steven Luo for most of the following features and bug fixes.)
