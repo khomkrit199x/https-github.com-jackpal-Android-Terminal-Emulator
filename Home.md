@@ -20,11 +20,11 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 ### Improving Android Terminal Emulator
 
+[[Roadmap]]
+
 [[Translating to Foreign Languages]]
 
 [[Installing BusyBox and ssh without Rooting your Device]]
 
 [Source](http://github.com/jackpal/Android-Terminal-Emulator/)
-
-[[Roadmap]]
 
