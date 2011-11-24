@@ -74,7 +74,7 @@ No! If you have Android 2.3 or newer, see [[Installing BusyBox and ssh without R
 
 ### I'm building my own Android ROM, can I include Android Terminal Emulator in my ROM?
 
-Sure, go for it. (Android Terminal Emulator is open source, so you can do what you like with it. Please read the license file -- you are required to follow the rules in the licence, which boil down to not changing the license and keeping the license with the source code.)
+Sure, go for it. [[Tips for Including ATE in a custom ROM]]
 
 ### What's up with the ZTA Technology version of Terminal Emulator in the market? Are they ripping you off?
 
