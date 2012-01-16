@@ -18,6 +18,8 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 [[Action Bar (Android 3.0+) UI]]
 
+[[Buttonless Device Support]]
+
 ### Using Android Terminal Emulator from Custom ROMs and other Apps
 
 [[Tips for Including ATE in a custom ROM]]
