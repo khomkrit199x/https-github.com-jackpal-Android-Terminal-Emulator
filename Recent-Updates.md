@@ -1,7 +1,7 @@
 ### 1.0.40
 
  + Android 3.0+ (Action Bar) UI (Thanks Steven Luo!)
-   + See Action Bar wiki page for more details.
+   + See [[Action Bar (Android 3.0+) UI]] for more details.
  + Amazon Kindle Fire support. (Thanks Yang Tang!)
  + Improved French Translation (Thanks euland!)
  + Display toast when resetting terminal. (Thanks damor!)
