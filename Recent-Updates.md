@@ -1,3 +1,11 @@
+### 1.0.40
+
+ + Android 3.0+ (Action Bar) UI (Thanks Steven Luo!)
+   See Action Bar wiki page for more details.
+ + Amazon Kindle Fire support. (Thanks Yang Tang!)
+ + Improved French Translation (Thanks euland!)
+ + Display toast when resetting terminal. (Thanks damor!)
+
 ### 1.0.39
 
  + Fix bug where "Reset Term" was not automatically refreshing the display.
