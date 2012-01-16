@@ -1,7 +1,7 @@
 ### 1.0.40
 
  + [[Action Bar (Android 3.0+) UI]] (Thanks Steven Luo!)
- + [[Buttonless Device Support]] support. (Thanks Yang Tang!)
+ + [[Buttonless Device Support]] (Thanks Yang Tang!)
  + Improved French Translation (Thanks euland!)
  + Display toast when resetting terminal. (Thanks damor!)
 
