@@ -57,6 +57,10 @@ Several people have reported this bug. Unfortunately, I can't reproduce it using
 
 I have reproduced this with SlideIt version 4.0.1 on Android 2.3.6. There is a work-around, which is to tap on the "ABC" button on the upper-right-hand-corner of the SlideIt soft keyboard. This switches SlideIt into letter-at-a-time mode.
 
+### Could you make a full programmer soft keyboard with ctrl, tab, esc?
+
+Many people report good results using the free [Hacker's Keyboard](https://market.android.com/details?id=org.pocketworkstation.pckeyboard) IME. Also available from [Hacker's Keyboard Download on github](http://code.google.com/p/hackerskeyboard/downloads/list)
+
 ### Why don't you include a telnet or ssh client?
 That's a good question! I guess I really ought to. Maybe one of these days I'll get around to it. In the meantime, see [[Installing BusyBox and ssh without Rooting your Device]]
 
