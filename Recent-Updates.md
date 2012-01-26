@@ -1,3 +1,13 @@
+### 1.0.41
+
+Fixed sticky-control-key issue with Android 3.0+ devices that have full keyboards. (Debugged by Klaus Weidner, fixed by Jack Palevich)
+
+Fixed terminal window size off-by-one error on Android 3.0+ tablet devices. (Steven Luo)
+
+Added Portugese translation. (damor)
+
+Improved French (euland) and German (damor) translations.
+
 ### 1.0.40
 
  + [[Action Bar (Android 3.0+) UI]] (Thanks Steven Luo!)
