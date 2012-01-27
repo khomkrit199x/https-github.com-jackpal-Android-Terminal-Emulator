@@ -6,13 +6,13 @@
 
  + Added Portugese translation. (damor)
 
- + Improved French (euland) and German (damor) translations.
+ + Improved French (eauland) and German (damor) translations.
 
 ### 1.0.40
 
  + [[Action Bar (Android 3.0+) UI]] (Thanks Steven Luo!)
  + [[Buttonless Device Support]] (Thanks Yang Tang!)
- + Improved French Translation (Thanks euland!)
+ + Improved French Translation (Thanks eauland!)
  + Display toast when resetting terminal. (Thanks damor!)
 
 ### 1.0.39
