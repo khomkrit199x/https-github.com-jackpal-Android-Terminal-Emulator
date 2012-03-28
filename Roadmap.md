@@ -12,7 +12,7 @@ I will make changes to support:
 
 As far as significant new features, those will have to come from the community. Most of the new features in ATE in the last two years have come from the community. (Thanks guys, you're the best!)
 
-There are a lot of good features that people have suggested, check the [Issues List](https://github.com/jackpal/Android-Terminal-Emulator/issues Issues List).
+There are a lot of good features that people have suggested, check the [Issues List](https://github.com/jackpal/Android-Terminal-Emulator/issues).
 
 ## Release schedule
 
