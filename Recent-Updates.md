@@ -1,3 +1,17 @@
+### 1.0.42
+
+ + Bug fixes for UTF-8 text, various crashes on ICS. (Steven Luo)
+
+ + Added Czech Republic translation. (Jozka.1@seznam.cz)
+
+ + Improved Basque translation (Asier Iturralde Sarasola)
+
+ + Improved French translations. (eauland)
+
+ + Added formal API for intent-based script execution. (Steven Luo)
+
+ + Status bar now visible by default.
+
 ### 1.0.41
 
  + Fixed sticky-control-key issue with Android 3.0+ devices that have full keyboards. (Debugged by Klaus Weidner, fixed by Jack Palevich)
