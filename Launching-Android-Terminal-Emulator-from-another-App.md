@@ -13,6 +13,7 @@ be passed to the terminal emulator.
   jackpal.androidterm.permission.RUN_SCRIPT permission, which must be
   approved by the user at install time.
 
+ToDo: Document how to use new API.
 
 ## Old, pre-1.0.42 API, now removed.
 
