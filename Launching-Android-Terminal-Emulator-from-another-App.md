@@ -14,6 +14,7 @@ be passed to the terminal emulator.
   approved by the user at install time.
 
 Example:
+
     // opens a new window
     Intent i = new Intent("jackpal.androidterm.OPEN_NEW_WINDOW");
     i.addCategory(Intent.CATEGORY_DEFAULT);
