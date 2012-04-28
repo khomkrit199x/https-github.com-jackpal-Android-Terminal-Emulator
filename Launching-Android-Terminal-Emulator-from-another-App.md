@@ -2,7 +2,7 @@ Android Terminal Emulator can be launched programmatically from another Android 
 Android Intent mechanism. You can optionally supply an intent extra to specify an initial command to
 be passed to the terminal emulator.
 
-## New 1.0.42 API
+## Intents
 
 * jackpal.androidterm.OPEN_NEW_WINDOW opens a new terminal window.  No
   script execution is allowed, and no permissions are required to use
