@@ -27,13 +27,8 @@ Example:
     i.putExtra("jackpal.androidterm.iInitialCommand", "echo 'Hi there!'");
     startActivity(i);
 
-## Old, pre-1.0.42 API, now removed.
+Sample code:
 
-(This API was removed because it allowed arbitrary applications to modify the SD Card and the Internet.)
+There's an example application showing how to use these intents here:
 
-Here's an example:
-
-    Intent intent = new Intent(Intent.ACTION_MAIN);
-    intent.setComponent(new ComponentName("jackpal.androidterm", "jackpal.androidterm.Term"));
-    intent.putExtra("jackpal.androidterm.iInitialCommand", "echo Hi there!");
-    startActivity(intent);
+[ATE Intent Sample Application](https://github.com/jackpal/Android-Terminal-Emulator/tree/master/examples/intents )
