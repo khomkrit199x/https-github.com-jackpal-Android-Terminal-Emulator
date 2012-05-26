@@ -1,3 +1,20 @@
+### 1.0.43
+
+ + "Return" key now works correctly in editors like nano and vi.
+
+ + Added "Read Logs" permission so that "adb logcat" command can be used to read logs.
+
+ + Other projects can now use ATE as a library. (See wiki for details.)
+ + New intents for:
+   + Sending commands to an existing ATE window.
+   + Adding directories to the PATH
+
+ + Improved French translation
+ + Improved German translation
+ + Added Hungarian translation
+ + Added MIPS CPU support
+
+
 ### 1.0.42
 
  + Bug fixes for UTF-8 text, various crashes on ICS. (Steven Luo)
