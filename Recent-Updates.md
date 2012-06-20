@@ -1,3 +1,12 @@
+### 1.0.44
+
+ + Improved Hungarian translation.
+
+ + Added new text color option: Holo blue text on black
+
+ + Removed READ_LOGS permission. It worried some users. Developers who want this feature will have to build
+their own version of ATE.
+
 ### 1.0.43
 
  + "Return" key now works correctly in editors like nano and vi.
