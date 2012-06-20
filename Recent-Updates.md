@@ -1,6 +1,6 @@
 ### 1.0.44
 
- + Improved Hungarian translation.
+ + Improved French and Hungarian translations.
 
  + Added new text color option: Holo blue text on black
 
