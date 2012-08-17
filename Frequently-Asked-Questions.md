@@ -30,13 +30,13 @@ This message is being printed out by the Android shell. It means one of two thin
 
 2. It could mean that the command exists, but you don't have permission to run it. By default the Android Terminal Emulator runs using the permissions of the Android Terminal Emulator application. You may need to become "root" in order to gain permissions to run some commands. You can use the "su" command to do this. Of course, most consumer Android devices don't have root access enabled by default, so you may not be able to use the "su" command on your device.
 
-### Why does the Android Terminal Emulator request Internet, Read Logs, and SD Card write permissions?
+### Why does the Android Terminal Emulator request Internet and SD Card write permissions?
 
-By itself, the Android Terminal Emulator doesn't access the Internet, read your logs, or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs that do these things.
+By itself, the Android Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Android Terminal Emulator want to run command line programs that do these things.
 
-The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Android Terminal Emulator requests the Internet, Read Logs and SD Card write permissions so that the command-line programs that it runs can have access to the Internet, read the log, and write to the SD Card.
+The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Android Terminal Emulator requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and write to the SD Card.
 
-If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Android Terminal Emulator and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET, READ_LOGS and WRITE_EXTERNAL_STORAGE permissions.)
+If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Android Terminal Emulator and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
 ### Why don't the Arrow Keys / DPAD / Trackball work ?
 They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. What's missing is that pre-Gingerbread (pre 2.3) versions of the default Android shell do not handle these escape sequences.  Gingerbread (Android 2.3) and later versions of Android work correctly. But that doesn't help people with older versions of Android.
