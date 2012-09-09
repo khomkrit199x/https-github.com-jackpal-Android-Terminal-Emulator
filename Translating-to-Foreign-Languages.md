@@ -3,11 +3,15 @@
 Android Terminal Emulator has been localized for these locales:
 
 + U.S. English <-- this is the default.
-+ Basque (en)
++ Basque (eu)
++ Czech (cz)
 + French (fr)
++ Georgian (ka)
 + German (de)
++ Hungarian (hu)
 + Italian (it)
 + Japanese (ja)
++ Portuguese (pt)
 + Russian (ru)
 + Simplified Chinese (zh-rCN)
 + Turkish (tr)
