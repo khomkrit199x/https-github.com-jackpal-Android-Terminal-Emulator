@@ -1,3 +1,14 @@
+### 1.0.45
+
+Added support for:
+  + 256-color mode
+  + Setting  window title via escape sequences.
+  + Re-enabled bold & underline text.
++ Smoother fling scrolling.
++ Less sensitive side-to-side flipping between windows.
++ Added Intent Chooser support for "Email To" menu item.
++ Improved translations for Russian, Portugese
+
 ### 1.0.44
 
  + Improved French and Hungarian translations.
