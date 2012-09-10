@@ -1,6 +1,6 @@
 ### 1.0.45
 
-Added support for:
++ Added support for:
   + 256-color mode
   + Setting  window title via escape sequences.
   + Re-enabled bold & underline text.
