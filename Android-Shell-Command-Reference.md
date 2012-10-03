@@ -162,7 +162,13 @@ Shows how much space is free on different file systems on your device.
     hd
     id
     ifconfig
+
+Shows the current configuration of network interfaces (IP, MAC address etc)
+
     iftop
+
+Shows the current processes using the network interfaces (top, but for networks)
+
     ime
     input
     insmod
@@ -170,6 +176,9 @@ Shows how much space is free on different file systems on your device.
     ioctl
     ionice
     iptables
+
+Manage the firewall 
+
     keystore
     keystore_cli
     kill
