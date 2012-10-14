@@ -1,23 +1,23 @@
-### 1.0.46
+# 1.0.46
 
-# New features
+## New features
 
 + Alt / Meta key can now be configured to send Esc or set high bit.
 + Improved Hungarian translation.
 
-# Changes
+## Changes
 
 + Default text colors are now white text on black background.
 + Default initial command string is now empty.
 
-# Bug fixes
+## Bug fixes
 
  + Better emulation of terminal escape sequences.
  + Better processing of Alt and Meta keys on Hacker's Keyboard IME and USB keyboards.
  + wide-character Unicode
  + F1-F4 function keys send standard codes.
 
-### 1.0.45
+# 1.0.45
 
 + Added support for:
   + 256-color mode
