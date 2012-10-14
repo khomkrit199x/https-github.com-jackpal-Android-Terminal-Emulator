@@ -1,3 +1,9 @@
+## 1.0.47
+
+### Changes
+
++ Alt Sends ESC is now off by default. (Having it on by default broke devices with physical keyboards where the Alt key was used to obtain special characters.)
+
 ## 1.0.46
 
 ### New features
