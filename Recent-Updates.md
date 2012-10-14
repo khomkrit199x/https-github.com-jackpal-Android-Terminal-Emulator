@@ -13,7 +13,7 @@
 ### Bug fixes
 
  + Better emulation of terminal escape sequences.
- + Better processing of Alt and Meta keys on Hacker's Keyboard IME and USB keyboards.
+ + Better processing of Alt and Meta keys on Hacker's Keyboard IME, Bluetooth and USB keyboards.
  + Fixed a crash related to displaying wide-character Unicode
  + F1-F4 function keys send standard codes.
 
