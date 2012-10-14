@@ -14,7 +14,7 @@
 
  + Better emulation of terminal escape sequences.
  + Better processing of Alt and Meta keys on Hacker's Keyboard IME and USB keyboards.
- + wide-character Unicode
+ + Fixed a crash related to displaying wide-character Unicode
  + F1-F4 function keys send standard codes.
 
 ## 1.0.45
