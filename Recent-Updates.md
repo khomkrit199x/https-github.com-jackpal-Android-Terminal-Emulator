@@ -1,3 +1,13 @@
+## 1.0.48
+
+### New features
+
++ Spanish translation
+
+### Bug fixes
+
++ Alt Key should work again for typing characters on phones with physical keyboards.
+
 ## 1.0.47
 
 ### Changes
