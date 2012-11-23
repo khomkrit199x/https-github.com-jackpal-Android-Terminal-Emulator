@@ -1,3 +1,11 @@
+## 1.0.49
+
+Improved translations:
+
+ + Hungarian
+ + Russian
+ + Spanish
+
 ## 1.0.48
 
 ### New features
