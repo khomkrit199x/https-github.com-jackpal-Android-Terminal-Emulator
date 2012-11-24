@@ -14,6 +14,7 @@ Android Terminal Emulator has been localized for these locales:
 + Portuguese (pt)
 + Russian (ru)
 + Simplified Chinese (zh-rCN)
++ Spanish (es)
 + Turkish (tr)
 
 All of these translations (besides American English) have been provided by volunteers. More translations and improved translations are gratefully accepted.
