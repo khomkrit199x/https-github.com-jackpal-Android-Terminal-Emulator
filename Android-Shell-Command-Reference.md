@@ -15,7 +15,7 @@ The built-in shell has very limited error handling. When you type a command name
 
 #The PATH variable
 
-The Android shell will run any program it finds in its PATH. The PATH is a list of directories. You can find out what your shell's PATH is set to by using the built-in echo command:
+The Android shell will run any program it finds in its PATH. The PATH is a colon (':') seperated list of directories. You can find out what your shell's PATH is set to by using the built-in echo command:
 
     $ echo $PATH
     /data/local/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
