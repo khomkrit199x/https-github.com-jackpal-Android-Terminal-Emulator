@@ -2,9 +2,9 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 ### Getting Android Terminal Emulator
 
-[Install from Market](https://market.android.com/details?id=jackpal.androidterm)
+[Install from Google Play](https://play.google.com/store/apps/details?id=jackpal.androidterm)
 
-[Download](http://github.com/jackpal/Android-Terminal-Emulator/downloads) - for devices without Market
+[Download](http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk) - for devices without access to Google Play
 
 ### Using Android Terminal Emulator
 
@@ -37,4 +37,3 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 [[Installing BusyBox and ssh without Rooting your Device]]
 
 [Source](http://github.com/jackpal/Android-Terminal-Emulator/)
-
