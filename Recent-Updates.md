@@ -1,3 +1,21 @@
+## 1.0.50
+
+New Feature:
+
+ + Can now choose larger font sizes: 24, 28, 32, 36, etc.
+
+Bug fixes:
+
+ + Fix the escape sequences that are transmitted for function keys F1 to F4.
+
+New translation:
+
+ + Ukrainian
+
+Improved translation:
+
+ + Russian
+
 ## 1.0.49
 
 Improved translations:
