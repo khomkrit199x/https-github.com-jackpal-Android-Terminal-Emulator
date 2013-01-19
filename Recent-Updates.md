@@ -1,3 +1,18 @@
+## 1.0.51
+
+Added partial translations from CyanogenMOD version of Android Terminal Emulator for several languages / locales:
+
+ + nb nl pl pt-rPT sk sv zh-rTW
+
+Improved Japanese translation. Thanks monaka!
+
+Bug fix:
+
+ + Function keys F1 to F4 now send correct escape sequences for all TERM types.
+ + External Hardware keyboard Ctrl key processing improved.
+ + External Hardware keyboard Fn key processing improved.
+
+
 ## 1.0.50
 
 New Feature:
