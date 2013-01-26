@@ -24,7 +24,7 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 ### Using Android Terminal Emulator from Custom ROMs and other Apps
 
-[[Tips for Including ATE in a custom ROM]]
+[[Tips for Including Android Terminal Emulator in a custom ROM]]
 
 [[Launching Android Terminal Emulator from another App]]
 
