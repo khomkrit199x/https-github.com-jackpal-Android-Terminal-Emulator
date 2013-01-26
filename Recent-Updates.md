@@ -3,8 +3,8 @@
 Features:
 
  + New icon designed by Nathanel Titane, nathanel.titane@gmail.com, TNDesigns
- + Cursor now shows toggle state of ctrl/shift/alt/Fn keys.
- + Combining accents now work on physical keyboards.
+ + Cursor now shows toggle state of ctrl/shift/alt/Fn keys. (Inspired by ConnectBot)
+ + Combining accents now work on physical keyboards. (Inspired by ConnectBot)
 
 Bug fixes:
 
