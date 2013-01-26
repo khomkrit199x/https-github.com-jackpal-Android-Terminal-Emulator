@@ -1,3 +1,16 @@
+## 1.0.52
+
+Features:
+
+ + New icon designed by Nathanel Titane, nathanel.titane@gmail.com, TNDesigns
+ + Cursor now shows toggle state of ctrl/shift/alt/Fn keys.
+ + Combining accents now work on physical keyboards.
+
+Bug fixes:
+
+ + Fixed large text paste ANR (Issue #198).
+
+
 ## 1.0.51
 
 Added partial translations from CyanogenMOD version of Android Terminal Emulator for several languages / locales:
