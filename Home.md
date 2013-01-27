@@ -8,6 +8,8 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 ### Using Android Terminal Emulator
 
+[G+ Community #Android Terminal Emulator](https://plus.google.com/u/0/communities/106164413936367578283) - a discussion forum for users to help each other use and improve Android Terminal Emulator.
+
 [[Frequently Asked Questions]]
 
 [[Privacy Policy]]
