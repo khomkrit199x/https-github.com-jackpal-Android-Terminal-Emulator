@@ -4,6 +4,14 @@ Can't see colors when using a program like vi that is supposed to support colore
 
 Possible Solutions
 
++ Perhaps your terminal doesn't support colors. Consult the documentation for your terminal.
+
++ Perhaps you don't have $CLICOLOR set correctly. Do
+
+    $ echo $CLICOLOR
+
+and see what it's set to. CLICOLOR=1 should enable colors.
+
 + Perhaps your version of vi doesn't support colors. Consult the documentation for your version of vi.
 
 + Perhaps you don't have the $TERM environment variable set correctly. Do
