@@ -45,20 +45,20 @@ As new features are added to Android Terminal Emulator, I add the English string
 
 When a new string is added, it appears (in English) in all translations. In order to appear in the localized language, the same string needs to be added to the corresponding file in the res/values-XX directory, where "XX" is the locale code. (That's the letters that appear in parentheses in the list of supported locales.  
 
-# How to improve a localization or create a brand-new localization.
+# How to improve a localization or create a brand-new localization
 
 First, send me an email so I know you're working on it!
 
 The process is slightly different depending upon whether you are improving an existing localization or creating a brand new localization.
 
-# Please try to use a text editor that supports UTF-8
+# Use a text editor that supports UTF-8
 
 Android resource files are encoded using the UTF-8 character set. If possible, please use a text editor
 that can read and write UTF-8 encoded files to edit the resource files. For example, on Windows you should
 use an editor like the free (Notepad++)[http://notepad-plus-plus.org/] editor. Or try the free test version
 of (Sublime Text 2)[http://www.sublimetext.com/2], which works on Windows, Mac OS and Linux.
 
-If you can't figure out how do this, no worries, send me your files anyway, and I'll do my best to
+If you can't do this, no worries, send me your files anyway, and I'll do my best to
 convert them into UTF-8.
 
 ## Improving an existing localization
