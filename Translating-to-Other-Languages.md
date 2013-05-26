@@ -12,6 +12,7 @@ Android Terminal Emulator has been localized for these locales:
 + Hungarian (hu)
 + Italian (it)
 + Japanese (ja)
++ Korean (ko)
 + Norwegian (Bokmål) (nb)
 + Polish (pl)
 + Portuguese (pt)
@@ -50,7 +51,7 @@ First, send me an email so I know you're working on it!
 
 The process is slightly different depending upon whether you are improving an existing localization or creating a brand new localization.
 
-# Please try to use a text editor that supports UTF-8.
+# Please try to use a text editor that supports UTF-8
 
 Android resource files are encoded using the UTF-8 character set. If possible, please use a text editor
 that can read and write UTF-8 encoded files to edit the resource files. For example, on Windows you should
