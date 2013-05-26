@@ -50,6 +50,16 @@ First, send me an email so I know you're working on it!
 
 The process is slightly different depending upon whether you are improving an existing localization or creating a brand new localization.
 
+# Please try to use a text editor that supports UTF-8.
+
+Android resource files are encoded using the UTF-8 character set. If possible, please use a text editor
+that can read and write UTF-8 encoded files to edit the resource files. For example, on Windows you should
+use an editor like the free (Notepad++)[http://notepad-plus-plus.org/] editor. Or try the free test version
+of (Sublime Text 2)[http://www.sublimetext.com/2], which works on Windows, Mac OS and Linux.
+
+If you can't figure out how do this, no worries, send me your files anyway, and I'll do my best to
+convert them into UTF-8.
+
 ## Improving an existing localization
 
 To improve an existing localization you'll need both the English version of the files as well as the existing localized versions of the files.
