@@ -12,8 +12,7 @@ If you experience an "Application Not Responding", or "Forced Close" event while
 
 # Permissions
 
-Android Terminal Emulator asks for several permissions on behalf of the command line tools that you can run from within Android Terminal Emulator. By itself Android Terminal Emulator does not use any of these permissions. It requests the permissions so that they are available to command-line programs that ar run from
-within the terminal emulator.
+Android Terminal Emulator asks for several permissions on behalf of command line tools that run from within the emulator. The current set of permissions that are requested is.
 
 * android.permission.INTERNET allows access the Internet. Examples of programs that use this permission are rcp, telnet, ssh, and ftp.
 * WRITE_EXTERNAL_STORAGE allows writing to the SD card. Used by cp, mv, and any tool that writes files.
