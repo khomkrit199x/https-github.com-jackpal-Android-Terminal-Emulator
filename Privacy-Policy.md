@@ -21,8 +21,8 @@ Android Terminal Emulator asks for several permissions on behalf of command line
 
 ## Access Superuser
 
-This permission is not a standard Android system permission. Instead, it is an informal standard developed by
-the enthusiast community. It is used to allow a program to indicate that it would like to acquire super-user
-permission. This permission is ignored by normal Android computers. It only does something if you have installed an enthusiast ROM (such as CyanogenMOD) that supports the feature.
+This permission is not a standard Android system permission. It is an informal standard developed by
+the enthusiast community. It allows a program to indicate that it would like to acquire super-user
+permission. This permission is ignored by normal Android computers. It only does something if you have installed an enthusiast ROM (such as CyanogenMOD) that supports the permission.
 
 Android Terminal Emulator does nothing with the Access Superuser permission by itself. It asks for the permission in order to allow command-line tools to run as root.
