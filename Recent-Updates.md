@@ -1,3 +1,36 @@
+## 1.0.53
+
+Features:
+
+ + Added 2 new color schemes based on Solarized Light and Solarized Dark. Nick Shvelidze<shveloo@gmail.com>
+ + Add android.permission.ACCESS_SUPERUSER permission, which means Android Terminal Emulator will request
+   super-user permission. Note that this does not automatically enable super-user permission. In order to
+   actually receive super-user permission you must have a ROM or super-user utility that supports granting
+   this permission to apps that request it. Do a web search for "android.permission.ACCESS_SUPERUSER" to
+   learn more. (By Jacob Müller <jacob.mueller.elz@gmail.com>)
+ + Set the HOME directory to an application-specific writable home directory. User can override by using
+   a newly added Preference setting. By Hans-Christoph Steiner <hans@eds.org>
+ + Add a preference setting for locking screen rotation to landscape or portrait.
+   By Masaki Muranaka <monaka@monami-ya.jp>
+ + Support newer version of clipboard on newer versions of Android. By Masaki Muranaka <monaka@monami-ya.jp>
+
+Translations:
+
+ + New Korean translation by Jongha Kim <kimjongha@fasoo.com>
+ + Updated Polish translation from Michał Kasprzak <mkasprzak@mail.com>
+ + Updated Russian and Ukrainian translations from serjbog <bogdanov.sergey.vyacheslavovich@gmail.com> 
+ + Updated French translations from euland.
+ + Add Japanese translation of the "intents" example. Masaki Muranaka <monaka@monami-ya.jp> 
+
+Bug fixes:
+
+ + Fix for hardware control key remaining stuck down if you switch screens while the control key is pressed.
+   By Stefan Schneider-Kennedy <code@stefansk.name>
+
+Minor changes:
+
+ + Now built with SDK version 22 and NDK version r8e.
+
 ## 1.0.52
 
 Features:
