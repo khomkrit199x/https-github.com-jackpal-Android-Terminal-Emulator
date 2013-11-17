@@ -39,9 +39,16 @@ The way Linux (and therefore Android) works, a child process inherits the permis
 If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Android Terminal Emulator and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
 ### Why don't the Arrow Keys / DPAD / Trackball work ?
-They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. What's missing is that pre-Gingerbread (pre 2.3) versions of the default Android shell do not handle these escape sequences.  Gingerbread (Android 2.3) and later versions of Android work correctly. But that doesn't help people with older versions of Android.
+They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. It is up to
+the "shell" to interpret these escape sequences.
+
+Pre-Gingerbread (pre 2.3) versions of the default Android shell do not handle these escape sequences.  Gingerbread (Android 2.3) and later versions of Android work correctly. But that doesn't help people with older versions of Android.
 
 If you have a Froyo (2.2) or earlier version of Android, you can fix this problem by installing an alternate shell, such as the one in Busybox. The Busybox "ash" shell recognizes the arrow escape sequences sent by the terminal emulator.
+
+Even on newer versions of Android people sometimes run into this problem when they switch between shells.
+(as when using the "su" command, which starts a new shell process for the root account.) You may need to
+take extra steps, such as manually setting the "TERM" environment variable in your new shell environment.
 
 ### Why doesn't the Back key work?
 
