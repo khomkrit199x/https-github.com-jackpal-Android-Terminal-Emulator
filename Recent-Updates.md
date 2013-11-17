@@ -1,3 +1,46 @@
+## 1.0.54
+
+Features:
+
+ + Option to send xterm mouse tracking codes dan@stahlke.org
+
+ + Option for keyboard shortcuts code@stefansk.name
+    + Control-Shift-N creates new window.
+    + Control-Tab cycles windows forward.
+    + Control-Shift-Tab cycles windows backwards.
+    + Control-Shift-V Pastes from clipboard.
+
+ + xterm terminal emulation pfalcon@users.sourceforge.net
+    + Alt buffer
+    + Application mode escape sequences for cursor keys.
+    + Numeric keypad support.
+
+ + Improved terminal emulation druzus@poczta.onet.pl
+  + Add support for ECMA-48 Status Report commands.
+  + In 16-color mode blink attribute implies bright background color.
+
+ + Tap on a URL to browse it kendallstewart@gmail.com
+
+ + Updated launcher icons from nathanel.titane@gmail.com
+
+Translations:
+
+ + Improved Korean translation kimjongha@fasoo.com and koongchi123@naver.com
+ + Improved Italian translation hubbit@hushmail.com
+ + Improved Hungarian translation gles@live.com
+ + Improved Czeck translation jozka.j1@gmail.com
+ + Improved Simplified Chinese translation cn.fyodor@gmail.com
+ + Improved Norwegian translation odinuge@gmail.com
+ + Improved Russian translation admin@nevergone.ru
+
+Bug fixes:
+
+ + Fix NPE in Telnet sample code.
+
+Minor changes:
+
+ + Now built with SDK version 23 and NDK version r9b.
+
 ## 1.0.53
 
 Features:
