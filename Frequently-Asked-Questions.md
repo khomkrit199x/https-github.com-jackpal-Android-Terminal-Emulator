@@ -98,3 +98,24 @@ See the instructions here: [[Translating to Other Languages]]
 ### Why does Android Terminal Emulator ask for certain permissions?
 
 Please read the Android Terminal Emulator [[Privacy Policy]].
+
+### I am using Android version 4.3 or newer and I can't get 'su' or 'ping' to work. Why?
+
+In order to better protect ordinary users, the Android OS enhanced its security model in the
+[4.3](http://source.android.com/devices/tech/security/enhancements43.html) and
+[4.4](http://source.android.com/devices/tech/security/enhancements44.html) releases.
+
+One of the security enhancements in Android 4.3 was to remove the ability to run setuid/setgid programs.
+Setuid/setgid are Linux features that enable programs to run with elevated permissions. The
+'ping' command is an example of a setuid program. It needs the elevated permissions in order to send and
+receive the special network packets used in the ping network protocol. When the 'ping' command is run by
+Android Terminal Emulator under Android 4.3 or later, the 'setuid/setgid' feature is disabled, and the
+ping command will fail because ordinary Android applications do not have permission to send or receive
+the network packets used in the ping network protocol.
+
+For similar reasons, some techniques for getting root access no longer work correction with Android 4.3 and
+4.4.
+
+I don't follow the rooting scene, so I don't have any good advice for how to work around these new security
+enhancements in Android 4.3 and 4.4. I guess it might be possible to create a custom ROM with a non-standard
+security policy, that for example allowed setuid/setgid to work again. But I don't know if anyone's doing that.
