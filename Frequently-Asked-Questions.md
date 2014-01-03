@@ -101,21 +101,26 @@ Please read the Android Terminal Emulator [[Privacy Policy]].
 
 ### I am using Android version 4.3 or newer and I can't get 'su' or 'ping' to work. Why?
 
-In order to better protect ordinary users, the Android OS enhanced its security model in the
+In order to better protect ordinary users from malware, the Android OS enhanced its security model in the
 [4.3](http://source.android.com/devices/tech/security/enhancements43.html) and
 [4.4](http://source.android.com/devices/tech/security/enhancements44.html) releases.
 
-One of the security enhancements in Android 4.3 was to remove the ability to run setuid/setgid programs.
-Setuid/setgid are Linux features that enable programs to run with elevated permissions. The
-'ping' command is an example of a setuid program. It needs the elevated permissions in order to send and
-receive the special network packets used in the ping network protocol. When the 'ping' command is run by
-Android Terminal Emulator under Android 4.3 or later, the 'setuid/setgid' feature is disabled, and the
-ping command will fail because ordinary Android applications do not have permission to send or receive
+One of the security enhancements made in Android 4.3 was to remove the ability to run setuid/setgid programs.
+[Setuid](http://linux.die.net/man/2/setuid) and [setgid](http://linux.die.net/man/2/setgid) are Linux
+features that enable programs to run with elevated permissions. The
+[ping](http://linux.die.net/man/8/ping) command is an example of a setuid program.
+Ping needs the elevated permissions in order to send and
+receive the special network packets used in the ping network protocol. When the ping command is run by
+Android Terminal Emulator under Android 4.3 or later, the setuid/setgid feature is disabled. The
+ping command fails because ordinary Android applications do not have permission to send or receive
 the network packets used in the ping network protocol.
 
-For similar reasons, some techniques for getting root access no longer work correction with Android 4.3 and
-4.4.
+For similar reasons, some techniques for getting 'su' root access no longer work correctly on Android 4.3
+and 4.4.
 
-I don't follow the rooting scene, so I don't have any good advice for how to work around these new security
+I don't follow the rooting scene, so I don't have any advice for how to work around these new security
 enhancements in Android 4.3 and 4.4. I guess it might be possible to create a custom ROM with a non-standard
-security policy, that for example allowed setuid/setgid to work again. But I don't know if anyone's doing that.
+security policy, that for example allowed setuid/setgid to work again. But I don't know if anyone's doing that. If you're interested I guess you need to read up on the Android ROM hacking scene. (Which I also don't
+follow, so I can't suggest which ROMs are good or not. A few years ago
+[xda-forum](http://forum.xda-developers.com/) and [CyanogenMOD](http://www.cyanogenmod.org/) were popular,
+but I don't know if that's still the case today. Good luck!)
