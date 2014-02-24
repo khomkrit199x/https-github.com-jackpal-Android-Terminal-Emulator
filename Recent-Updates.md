@@ -1,3 +1,22 @@
+## 1.0.55
+
+Features:
+
+ + Enabled hardware acceleration. (sconosciuto).
+ 
+Bug Fixes:
+
+ + Make new ptty the controlling ptty. (phantom10111)
+ + Close previously-opened file descriptors after fork and before exec. (phantom10111)
+
+Updated Translations:
+
+ + Updated French translation (euland).
+ + Updated Hebrew translation (arthurzam).
+ + Updated Hungarian translation (gLes).
+ + Updated Italian translation (sconosciuto).
+ + Updated Slovak translation (pylerSM).
+
 ## 1.0.54
 
 Features:
