@@ -1,3 +1,8 @@
+## 1.0.56
+
+ + Disabled hardware acceleration for main terminal window, because the cursor doesn't render
+   correctly. The Preferences pane is still hardware accelerated.
+
 ## 1.0.55
 
 Features:
