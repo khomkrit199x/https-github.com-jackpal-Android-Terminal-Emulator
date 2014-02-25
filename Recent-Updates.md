@@ -50,7 +50,7 @@ Features:
 Translations:
 
  + Improved Korean translation kimjongha@fasoo.com and koongchi123@naver.com
- + Improved Italian translation hubbit@hushmail.com
+ + Improved Italian translation hubbit
  + Improved Hungarian translation gles@live.com
  + Improved Czeck translation jozka.j1@gmail.com
  + Improved Simplified Chinese translation cn.fyodor@gmail.com
