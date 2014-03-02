@@ -1,3 +1,13 @@
+## 1.0.57
+
+ + Reverted close-extra-file-descriptors-on-fork patch. It turns out that some of the file descriptors
+   that we were closing were used by the C runtime. Closing them meant that certain C APIs stopped working.
+   The exact effect varied by C runtime version, but typical reports included getprops, ping, and su not
+   working.
+
+ + Updated Slovak translation (pylerSM) 
+ + Updated Spanish translation (McGiverGim)
+
 ## 1.0.56
 
  + Disabled hardware acceleration for main terminal window, because the cursor doesn't render
