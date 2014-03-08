@@ -1,3 +1,7 @@
+## 1.0.58
+
+ + Add a "Help" menu item that links to a few simple help pages. (godlessfather)
+
 ## 1.0.57
 
  + Reverted close-extra-file-descriptors-on-fork patch. It turns out that some of the file descriptors
