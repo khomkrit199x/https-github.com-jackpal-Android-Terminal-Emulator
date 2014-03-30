@@ -1,3 +1,10 @@
+## v1.0.59
+
+ + Hardware-accelerated text drawing on devices running Android 3.0 or newer. (jackpal)
+ + The cursor is now drawn correctly for "double-wide" characters. (maoabc)
+ + The Help menu has been moved to the bottom of the menu. (godlessfather)
+ + SK localization improved (pyler)
+
 ## 1.0.58
 
  + Add a "Help" menu item that links to a few simple help pages. (godlessfather)
