@@ -30,6 +30,10 @@ Q: Will you be accepting pull requests?
 
 A: No, I will no longer be accepting pull requests.
 
+Q: But I've got a pull request ready to go .. I just forgot to send it in.
+
+A: OK, go ahead and send it in. If it's small enough, or cool enough, I might accept it. (This is a limited time offer. Probably good until around 6/15/2014.)
+
 Q: What about existing open github Issues?
 
 A: I will be closing them as won’t fix.
