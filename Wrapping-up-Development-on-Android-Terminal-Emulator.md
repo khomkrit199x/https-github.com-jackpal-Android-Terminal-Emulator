@@ -26,13 +26,17 @@ Q: Will you be keeping Android Terminal Emulator source code on GitHub?
 
 A: Yes.
 
-Q: Will you be accepting pull requests?
+Q: Will you be accepting pull requests for new features?
 
-A: No, I will no longer be accepting pull requests.
+A: No, I will no longer be accepting pull requests for new features.
 
 Q: But I've got a pull request ready to go .. I just forgot to send it in.
 
 A: OK, go ahead and send it in. If it's small enough, or cool enough, I might accept it. (This is a limited time offer. Probably good until around 6/15/2014.)
+
+Q: Will you be accepting pull requests for updated translations?
+
+A: Yes, I will be accepting pull requests for new translations.
 
 Q: What about existing open github Issues?
 
