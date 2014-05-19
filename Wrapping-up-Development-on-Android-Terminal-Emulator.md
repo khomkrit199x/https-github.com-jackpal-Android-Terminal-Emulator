@@ -34,9 +34,9 @@ Q: But I've got a pull request ready to go .. I just forgot to send it in.
 
 A: OK, go ahead and send it in. If it's small enough, or cool enough, I might accept it. (This is a limited time offer. Probably good until around 6/15/2014.)
 
-Q: Will you be accepting pull requests for updated translations?
+Q: Will you be accepting pull requests for new or updated translations?
 
-A: Yes, I will be accepting pull requests for new translations.
+A: Yes, I will be accepting pull requests for new or updated translations.
 
 Q: What about existing open github Issues?
 
