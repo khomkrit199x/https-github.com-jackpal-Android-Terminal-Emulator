@@ -1,11 +1,13 @@
 ## v1.0.60
-+ a "Term" widget lets you create launcher icons to run favorite commands. Long-press on desktop, tap on Widgets, tap on Term, fill out dialog box. (FrankWWestlake)
++ a "Term" widget lets you create launcher icons to run favorite commands. Long-press on desktop, tap on Widgets, tap on Term, fill out dialog box. (FrankWestlake)
 
-+ a "Term Here" intent lets you open Android Terminal Emulator at a given directory. Works with third-party file managers. Select "Term Here" in the file manager's "share" menu for a directory. (FrankWWestlake)
++ a "Term Here" intent lets you open Android Terminal Emulator at a given directory. Works with third-party file managers. Select "Term Here" in the file manager's "share" menu for a directory. (FrankWestlake)
+
++ Multi-Window support on Galaxy Tabs. (FrankWestlake)
 
 + auto-linkification now requires a "http://" or "https://" at the front of a link. (jackpal)
 
-+ Bug fixes and API and documentation improvements (Steven Luo)
++ Bug fixes and API documentation improvements (Steven Luo)
 
 + Improved French translation. (Spanti Nicola)
 
