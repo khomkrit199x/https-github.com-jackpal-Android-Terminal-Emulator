@@ -1,3 +1,11 @@
+## v1.0.61
+
++ Term Shortcut dialog now uses Holo theme if available. (FrankWestlake)
+
++ Term Shortcut dialog no longer crashes on very old (cupcake) versions of Android.
+
++ Improved Hungarian (gles), Slovak (pyler), and Spanish (mcgivergim) translations.
+
 ## v1.0.60
 + a "Term" widget lets you create launcher icons to run favorite commands. Long-press on desktop, tap on Widgets, tap on Term, fill out dialog box. (FrankWestlake)
 
