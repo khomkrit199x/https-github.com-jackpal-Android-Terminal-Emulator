@@ -1,3 +1,13 @@
+## v1.0.62
+
++ Added a built-in file picker that's used by the Term short cut. (FrankWestlake)
+
++ Improved multi-byte text handling (Steven Luo)
+
++ Fixed crash when tapping on last character of a hyperlink (Steven Luo)
+
++ Updated Hungarian translation (gLes)
+
 ## v1.0.61
 
 + Term Shortcut dialog now uses Holo theme if available. (FrankWestlake)
