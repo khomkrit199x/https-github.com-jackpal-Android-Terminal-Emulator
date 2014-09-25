@@ -1,14 +1,14 @@
-The Android Terminal Emulator is a VT-100 compatible terminal emulator for Android devices.
+The Chameleon Terminal Emulator is a VT-100 compatible terminal emulator for Android devices.
 
-### Getting Android Terminal Emulator
+### Getting Chameleon Terminal Emulator
 
-[Install from Google Play](https://play.google.com/store/apps/details?id=jackpal.androidterm) - for Android devices with access to the Google Play store.
+[Install from Google Play](https://play.google.com/store/apps/details?id=jackpal.chameleonterm) - for Android devices with access to the Google Play store.
 
 [Download from GitHub](http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk) - for devices without access to the Google Play store.
 
-### Using Android Terminal Emulator
+### Using Chameleon Terminal Emulator
 
-[G+ Community #Android Terminal Emulator](https://plus.google.com/u/0/communities/106164413936367578283) - a discussion forum for users to help each other use and improve Android Terminal Emulator.
+[G+ Community #Android Terminal Emulator](https://plus.google.com/u/0/communities/106164413936367578283) - a discussion forum for users to help each other use and improve Chameleon Terminal Emulator.
 
 [[Frequently Asked Questions]]
 
@@ -24,13 +24,13 @@ The Android Terminal Emulator is a VT-100 compatible terminal emulator for Andro
 
 [[Buttonless Device Support]]
 
-### Using Android Terminal Emulator from Custom ROMs and other Apps
+### Using Chameleon Terminal Emulator from Custom ROMs and other Apps
 
 [[Tips for Including Android Terminal Emulator in a Custom ROM]]
 
 [[Launching Android Terminal Emulator from another App]]
 
-### Improving Android Terminal Emulator
+### Improving Chameleon Terminal Emulator
 
 [[Roadmap]]
 
