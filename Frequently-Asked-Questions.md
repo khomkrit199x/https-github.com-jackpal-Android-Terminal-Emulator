@@ -90,7 +90,7 @@ No! If you have Android 2.3 or newer, see [[Installing BusyBox and ssh without R
 
 ### I'm building my own Android ROM, can I include Chameleon Terminal Emulator in my ROM?
 
-Sure, go for it. [[Tips for Including CTE in a custom ROM]]
+Sure, go for it. [[Tips for Including Chameleon Terminal Emulator in a custom ROM]]
 
 ### How can I get the menu key to work with Chameleon Terminal Emulator on my Nook?
 
