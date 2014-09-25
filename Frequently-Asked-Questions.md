@@ -1,4 +1,4 @@
-## Is "Chameleon Terminal Emulator" the same app as "Android Terminal Emulator"?
+## Is "Terminal Emulator forA" the same app as "Android Terminal Emulator"?
 
 Yes. The name was changed due to Google Play branding guidelines. Unfortunately Google Play does not
 allow applications that start with the word "Android".
@@ -17,13 +17,13 @@ I've written a brief, incomplete, guide to using the built-in Android shell: [[A
 
 Sorry, this is a terminal emulator, not a game emulator. It has nothing to do with games.
 
-### Does Chameleon Terminal Emulator allow me to "Root" or "Hack" my phone?
+### Does Terminal Emulator for Android allow me to "Root" or "Hack" my phone?
 
-Sorry, no. Chameleon Terminal Emulator does not help you root or hack your phone.
+Sorry, no. Terminal Emulator for Android does not help you root or hack your phone.
 
-### Is Chameleon Terminal Emulator useful on an ordinary phone, that hasn't been rooted?
+### Is Terminal Emulator for Android useful on an ordinary phone, that hasn't been rooted?
 
-Yes! You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Chameleon Terminal Emulator process.
+Yes! You can access the entire /sdcard file system, and you can install and run Linux command-line applications in the parts of the /data file system that are accessible to the Terminal Emulator for Android process.
 
 You can also run command-line programs that access the Internet.
 
@@ -35,13 +35,13 @@ This message is being printed out by the Android shell. It means one of two thin
 
 2. It could mean that the command exists, but you don't have permission to run it. By default Chameleon Terminal Emulator runs using the permissions of the Chameleon Terminal Emulator application. You may need to become "root" in order to gain permissions to run some commands. You can use the "su" command to do this. Of course, most consumer Android devices don't have root access enabled by default, so you may not be able to use the "su" command on your device.
 
-### Why does Chameleon Terminal Emulator request Internet and SD Card write permissions?
+### Why does Terminal Emulator for Android request Internet and SD Card write permissions?
 
-By itself, Chameleon Terminal Emulator doesn't access the Internet or write to the SD Card. However, many users of Chameleon Terminal Emulator want to run command line programs that do these things.
+By itself, Terminal Emulator for Android doesn't access the Internet or write to the SD Card. However, many users of Terminal Emulator for Android want to run command line programs that do these things.
 
-The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Chameleon Terminal Emulator requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and write to the SD Card.
+The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Terminal Emulator for Android requests the Internet and SD Card write permissions so that the command-line programs that it runs can have access to the Internet and write to the SD Card.
 
-If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Chameleon Terminal Emulator and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
+If giving these permissions to the terminal emulator makes you uncomfortable, you could always download the source code to Terminal Emulator for Android and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
 ### Why don't the Arrow Keys / DPAD / Trackball work ?
 They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. It is up to
@@ -88,21 +88,21 @@ Do a web search for "Android Busybox" and read through the results.
 ### Do I need root access to install and use Busybox?
 No! If you have Android 2.3 or newer, see [[Installing BusyBox and ssh without Rooting your Device]]
 
-### I'm building my own Android ROM, can I include Chameleon Terminal Emulator in my ROM?
+### I'm building my own Android ROM, can I include Terminal Emulator for Android in my ROM?
 
-Sure, go for it. [[Tips for Including Chameleon Terminal Emulator in a custom ROM]]
+Sure, go for it. [[Tips for Including Terminal Emulator for Android in a custom ROM]]
 
-### How can I get the menu key to work with Chameleon Terminal Emulator on my Nook?
+### How can I get the menu key to work with Terminal Emulator for Android on my Nook?
 
-The Nook does not have a physical menu key. If you want Chameleon Terminal Emulator to work with a Nook, you will have to install a version of Android that supports soft menu keys. Android 3.0 (Honeycomb) provides support for soft menu keys.
+The Nook does not have a physical menu key. If you want Terminal Emulator for Android to work with a Nook, you will have to install a version of Android that supports soft menu keys. Android 3.0 (Honeycomb) provides support for soft menu keys.
 
 ### How can I contribute a localization?
 
 See the instructions here: [[Translating to Other Languages]]
 
-### Why does Chameleon Terminal Emulator ask for certain permissions?
+### Why does Terminal Emulator for Android ask for certain permissions?
 
-Please read the Chameleon Terminal Emulator [[Privacy Policy]].
+Please read the Terminal Emulator for Android [[Privacy Policy]].
 
 ### I am using Android version 4.3 or newer and I can't get 'su' or 'ping' to work. Why?
 
@@ -116,7 +116,7 @@ features that enable programs to run with elevated permissions. The
 [ping](http://linux.die.net/man/8/ping) command is an example of a setuid program.
 Ping needs the elevated permissions in order to send and
 receive the special network packets used in the ping network protocol. When the ping command is run by
-Chameleon Terminal Emulator under Android 4.3 or later, the setuid/setgid feature is disabled. The
+Terminal Emulator for Android under Android 4.3 or later, the setuid/setgid feature is disabled. The
 ping command fails because ordinary Android applications do not have permission to send or receive
 the network packets used in the ping network protocol.
 
