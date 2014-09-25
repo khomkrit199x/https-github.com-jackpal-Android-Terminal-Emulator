@@ -1,4 +1,4 @@
-## Is this the same app as "Android Terminal Emulator"?
+## Is "Chameleon Terminal Emulator" the same app as "Android Terminal Emulator"?
 
 Yes. The name was changed due to Google Play branding guidelines. Unfortunately Google Play does not
 allow applications that start with the word "Android".
