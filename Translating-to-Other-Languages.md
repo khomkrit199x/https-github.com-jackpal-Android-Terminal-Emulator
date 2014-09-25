@@ -1,6 +1,6 @@
-# How to Localize Chameleon Terminal Emulator
+# How to localize Terminal Emulator for Android
 
-Chameleon Terminal Emulator has been localized for these locales:
+Terminal Emulator for Android has been localized for these locales:
 
 + U.S. English <-- this is the default.
 + Basque (eu)
@@ -35,13 +35,13 @@ You don't have to be a programmer to create the translations, all you need is a 
 
 Android localization is done primarily using localized versions of XML files stored in the res/values* directories of the source tree. Please read the official documentation on [Android Resource Localization](http://developer.android.com/guide/topics/resources/localization.html)
 
-All that you need to do to localize Chameleon Terminal Emulator into a new language is make a copy of the res/values directory and update the strings (about 100) that are stored in those files. Then recompile Chameleon Terminal Emulator to include your new translation. (And please send the new or updated localization files to me so I can include them in the official build of Chameleon Terminal Emulator.) 
+All that you need to do to localize Terminal Emulator for Android into a new language is make a copy of the res/values directory and update the strings (about 100) that are stored in those files. Then recompile Terminal Emulator for Android to include your new translation. (And please send the new or updated localization files to me so I can include them in the official build of Terminal Emulator for Android.) 
 
 # Why the translations are not complete
 
-Unfortunately my foreign language skills are very weak. "Guten Tag!" and "Ni Hao" are about all I know. That means I have to rely on the kindness of strangers for the localized versions of Chameleon Terminal Emulator.
+Unfortunately my foreign language skills are very weak. "Guten Tag!" and "Ni Hao" are about all I know. That means I have to rely on the kindness of strangers for the localized versions of Terminal Emulator for Android.
 
-As new features are added to Chameleon Terminal Emulator, I add the English strings for the new user interface features are added to files in the "res/values" directory.
+As new features are added to Terminal Emulator for Android, I add the English strings for the new user interface features are added to files in the "res/values" directory.
 
 When a new string is added, it appears (in English) in all translations. In order to appear in the localized language, the same string needs to be added to the corresponding file in the res/values-XX directory, where "XX" is the locale code. (That's the letters that appear in parentheses in the list of supported locales.  
 
@@ -80,7 +80,7 @@ To improve an existing localization you'll need both the English version of the 
 
 ## Creating a brand new localization
 
-To contribute a new localization for the Chameleon Terminal Emulator, please:
+To contribute a new localization for the Terminal Emulator for Android, please:
 
 1. Download these two files:
 
@@ -92,18 +92,18 @@ To contribute a new localization for the Chameleon Terminal Emulator, please:
 
 ## If you know how to use github and compile Android apps
 
-Alternately, if you know how to use github and write Android applications, you can fork the Chameleon Terminal Emulator project, add the localization to your fork, build and test the fork to make sure that it works, and send me a pull request:
+Alternately, if you know how to use github and write Android applications, you can fork the Terminal Emulator for Android project, add the localization to your fork, build and test the fork to make sure that it works, and send me a pull request:
 
 1. [Install Git](http://git-scm.com/)
-2. Clone the Chameleon Terminal Emulator git repository:
+2. Clone the Terminal Emulator for Android git repository:
 
     $ git clone git://github.com/jackpal/Android-Terminal-Emulator.git
 
 3. Edit the appropriate res/values-* files. (For example res/values-de has the German (Deutsch) localization.) You will need to manually look through the corresponding U.S. English res/values files to find out what strings are missing.
 
-4. Build and test Chameleon Terminal Emulator to make sure that you new translation works.
+4. Build and test Terminal Emulator for Android to make sure that you new translation works.
 
-    + See docs/Building.txt for instructions on how to build Chameleon Terminal Emulator.
+    + See docs/Building.txt for instructions on how to build Terminal Emulator for Android.
 
 5. Send me the changes you made, either as a "diff", a "patch" or as a "github pull request".
 
@@ -125,4 +125,4 @@ In this section of text you only need to localize the "Show status bar" and "Hid
             <item>HIDE STATUS BAR</item>
         </string-array>
 
-Back to [[Home]] page for the Chameleon Terminal Emulator Wiki
+Back to [[Home]] page for the Terminal Emulator for Android Wiki
