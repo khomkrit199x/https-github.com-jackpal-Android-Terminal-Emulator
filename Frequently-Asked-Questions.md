@@ -1,3 +1,8 @@
+## Is this the same app as "Android Terminal Emulator"?
+
+Yes. The name was changed due to Google Play branding guidelines. Unfortunately Google Play does not
+allow applications that start with the word "Android".
+
 ## What is a terminal emulator?
 
 A terminal emulator is a program that makes your Android phone act like an old fashioned computer terminal. It is useful for accessing the Linux command line shell that is built into every Android phone. This lets you run various Linux command line utilities.
