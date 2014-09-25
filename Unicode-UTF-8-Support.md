@@ -1,4 +1,4 @@
-Android Terminal Emulator (as of 1.0.33) has partial Unicode UTF-8 support.
+Chameleon Terminal Emulator (as of 1.0.33) has partial Unicode UTF-8 support.
 
 [Unicode](http://en.wikipedia.org/wiki/Unicode) is a standard for encoding all the world's written languages.
 
