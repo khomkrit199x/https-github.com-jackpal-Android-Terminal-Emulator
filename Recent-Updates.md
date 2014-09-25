@@ -1,3 +1,19 @@
+## v1.0.63
+
++ Application name changed to Chameleon Terminal Emulator.
+
+  - The previous name stared with "Android", which is not allowed for applications published in the Play store.
+
++ Java package name changed to jackpal.chameleonterm.
+
+  - Required in order to republish the application on the Play store.
+  - Unfortunately this breaks third party apps that try to launch Chameleon Terminal Emulator using the old package name.
+Those apps will have to update to use the new package name.
+
++ Improved Dutch translation (Eddy Witkamp)
+
++ Improved Slovak translation (pylerSM)
+
 ## v1.0.62
 
 + Added a built-in file picker that's used by the Term short cut. (FrankWestlake)
