@@ -1,4 +1,4 @@
-# Roadmap for Terminal Emulator for Android
+# Roadmap -- end of the road
 
 Terminal Emulator for Android development is complete. I am not accepting additional feature patches
 for the project.
