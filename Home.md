@@ -1,14 +1,14 @@
-The Chameleon Terminal Emulator is a VT-100 compatible terminal emulator for Android devices.
+Terminal Emulator for Android is a VT-100 compatible terminal emulator for Android devices.
 
-### Getting Chameleon Terminal Emulator
+### Getting Terminal Emulator for Android
 
-[Install from Google Play](https://play.google.com/store/apps/details?id=jackpal.chameleonterm) - for Android devices with access to the Google Play store.
+[Install from Google Play](https://play.google.com/store/apps/details?id=jackpal.androidterm) - for Android devices with access to Google Play.
 
-[Download from GitHub](http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk) - for devices without access to the Google Play store.
+[Download from GitHub](http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk) - for devices without access to Google Play.
 
-### Using Chameleon Terminal Emulator
+### Using Terminal Emulator for Android
 
-[G+ Community #Android Terminal Emulator](https://plus.google.com/u/0/communities/106164413936367578283) - a discussion forum for users to help each other use and improve Chameleon Terminal Emulator.
+[G+ Community #Android Terminal Emulator](https://plus.google.com/u/0/communities/106164413936367578283) - a discussion forum for users to help each other use and improve Terminal Emulator for Android.
 
 [[Frequently Asked Questions]]
 
@@ -24,13 +24,13 @@ The Chameleon Terminal Emulator is a VT-100 compatible terminal emulator for And
 
 [[Buttonless Device Support]]
 
-### Using Chameleon Terminal Emulator from Custom ROMs and other Apps
+### Using Terminal Emulator for Android from Custom ROMs and other Apps
 
-[[Tips for Including Chameleon Terminal Emulator in a Custom ROM]]
+[[Tips for Including Terminal Emulator for Android in a Custom ROM]]
 
-[[Launching Chameleon Terminal Emulator from another App]]
+[[Launching Terminal Emulator for Android from another App]]
 
-### Improving Chameleon Terminal Emulator
+### Improving Terminal Emulator for Android
 
 [[Roadmap]]
 
