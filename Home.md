@@ -26,9 +26,9 @@ The Chameleon Terminal Emulator is a VT-100 compatible terminal emulator for And
 
 ### Using Chameleon Terminal Emulator from Custom ROMs and other Apps
 
-[[Tips for Including Android Terminal Emulator in a Custom ROM]]
+[[Tips for Including Chameleon Terminal Emulator in a Custom ROM]]
 
-[[Launching Android Terminal Emulator from another App]]
+[[Launching Chameleon Terminal Emulator from another App]]
 
 ### Improving Chameleon Terminal Emulator
 
