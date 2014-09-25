@@ -33,7 +33,7 @@ This message is being printed out by the Android shell. It means one of two thin
 
 1. It might simply mean that you have misspelled the command name, or are trying to use a command that is not installed on you device. The Android shell will print "permission denied" when it just can't find the command, instead of a more accurate error message like "command not found".
 
-2. It could mean that the command exists, but you don't have permission to run it. By default Chameleon Terminal Emulator runs using the permissions of the Chameleon Terminal Emulator application. You may need to become "root" in order to gain permissions to run some commands. You can use the "su" command to do this. Of course, most consumer Android devices don't have root access enabled by default, so you may not be able to use the "su" command on your device.
+2. It could mean that the command exists, but you don't have permission to run it. By default Terminal Emulator for Android runs using the permissions of the Terminal Emulator for Android application. You may need to become "root" in order to gain permissions to run some commands. You can use the "su" command to do this. Of course, most consumer Android devices don't have root access enabled by default, so you may not be able to use the "su" command on your device.
 
 ### Why does Terminal Emulator for Android request Internet and SD Card write permissions?
 
