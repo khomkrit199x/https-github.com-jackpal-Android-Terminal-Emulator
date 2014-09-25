@@ -21,9 +21,9 @@ Sorry, this is a terminal emulator, not a game emulator. It has nothing to do wi
 
 Sorry, no. Terminal Emulator for Android does not help you root or hack your phone.
 
-### How can I Root or Hack my phone?
+### How can I root or hack my phone?
 
-I don't know. Maybe ask on an enthusiast web site like http://forum.xda-developers.com/
+I don't know how to do that. I use "developer" edition Android phones that don't need to be rooted, and I don't have any interest in hacking phones. Maybe ask on an enthusiast web site like http://forum.xda-developers.com/
 
 ### Is Terminal Emulator for Android useful on an ordinary phone, that hasn't been rooted?
 
