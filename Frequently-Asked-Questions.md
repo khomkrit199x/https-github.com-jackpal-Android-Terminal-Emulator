@@ -133,3 +133,26 @@ security policy, that for example allowed setuid/setgid to work again. But I don
 follow, so I can't suggest which ROMs are good or not. A few years ago
 [xda-forum](http://forum.xda-developers.com/) and [CyanogenMOD](http://www.cyanogenmod.org/) were popular,
 but I don't know if that's still the case today. Good luck!)
+
+### Hey, my bash is vulnerable to the Shellshock bug. How do I fix that?
+
+Shellshock is a security bug in some versions of the bash shell. You can test whether your version of
+the bash shell is vulnerable by running this line in the terminal
+
+    env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+
+If you see output like this then your version of bash is vulnerable:
+
+    vulnerable
+    this is a test
+
+Stock Android does not include the bash shell, so most Android devices do not have this bug. Some
+custom ROMs like CyanogenMOD 10 and 11 are reported to come with vulnerable versions of bash.
+
+In addition, you could have manually installed your own version of bash, by for example installing a
+Debian chroot.
+
+If you discover that your Android device has a vulnerable version of bash, you will need to figure out where the vulnerable version of bash comes from (either the ROM or something you installed) and then contact the vendor and ask them for a fix.
+
+Unfortunately there's nothing Terminal Emulator for Android can do to help (or hinder) this. It just runs whatever version of bash you have installed on your device.
+
