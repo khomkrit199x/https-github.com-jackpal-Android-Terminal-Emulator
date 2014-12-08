@@ -134,6 +134,18 @@ follow, so I can't suggest which ROMs are good or not. A few years ago
 [xda-forum](http://forum.xda-developers.com/) and [CyanogenMOD](http://www.cyanogenmod.org/) were popular,
 but I don't know if that's still the case today. Good luck!)
 
+### How do I fix "Unknown error code during application install: -505"?
+
+This error means that there is a custom permission conflict between "Terminal Emulator for Android" and some other application that is installed on your device. Terminal Emulator for Android declares three custom permissions, and starting with Android 5.0 Lollipop, only one application at a time can be installed for any given custom permission.
+
+The three custom permissions are:
+
+    jackpal.androidterm.permission.RUN_SCRIPT
+    jackpal.androidterm.permission.APPEND_TO_PATH
+    jackpal.androidterm.permission.PREPEND_TO_PATH
+
+One relatively straightforward way to do this is to uninstall all the apps you suspect might be using these permissions, and then install Terminal Emulator for Android, and then reinstall the suspected apps. The conflicting app should fail to reinstall.
+
 ### Hey, my bash is vulnerable to the Shellshock bug. How do I fix that?
 
 Shellshock is a security bug in some versions of the bash shell. You can test whether your version of
@@ -155,4 +167,3 @@ Debian chroot.
 If you discover that your Android device has a vulnerable version of bash, you will need to figure out where the vulnerable version of bash comes from (either the ROM or something you installed) and then contact the vendor and ask them for a fix.
 
 Unfortunately there's nothing Terminal Emulator for Android can do to help (or hinder) this. It just runs whatever version of bash you have installed on your device.
-
