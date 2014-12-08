@@ -144,7 +144,15 @@ The three custom permissions are:
     jackpal.androidterm.permission.APPEND_TO_PATH
     jackpal.androidterm.permission.PREPEND_TO_PATH
 
-One relatively straightforward way to do this is to uninstall all the apps you suspect might be using these permissions, and then install Terminal Emulator for Android, and then reinstall the suspected apps. The conflicting app should fail to reinstall.
+One relatively straightforward way to figure out which applications conflict with Terminal Emulator for Android is to:
+
+ 1. Uninstall all the apps you suspect might be using these permissions.
+
+ 2. Install Terminal Emulator for Android.
+
+ 3. Try to reinstall the suspected apps.
+
+ 4. The conflicting app should fail to reinstall.
 
 ### Hey, my bash is vulnerable to the Shellshock bug. How do I fix that?
 
