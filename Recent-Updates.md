@@ -1,3 +1,12 @@
+## v1.0.63
+
++ Built with Android Studio 1.0 / NDK r10d
+
++ new Serbian translation (pejakm)
+
++ improved Slovak translation (pylerSM)
+
+
 ## v1.0.62
 
 + Added a built-in file picker that's used by the Term short cut. (FrankWestlake)
