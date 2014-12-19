@@ -45,7 +45,17 @@ By itself, Terminal Emulator for Android doesn't access the Internet or Photos/M
 
 The way Linux (and therefore Android) works, a child process inherits the permissions of the parent. Terminal Emulator for Android requests the Internet and Photos/Media/Files write permissions so that the command-line programs that it runs can have access to the Internet and Photos/Media/Files stored on the device and any attached SD Cards.
 
-So, for example without the Internet permission the "ping" command line would not work. Similarly, without the Photos/Media/Files permission a command like "mkdir /sdcard/myNewDirectory" would not work.
+So, for example without the Internet permission a command like
+
+    ping
+
+would not work.
+
+Similarly, without the Photos/Media/Files permission a command like
+
+    mkdir /sdcard/myNewDirectory
+
+would not work.
 
 If giving these permissions to the terminal emulator makes you uncomfortable, you could download the source code to Terminal Emulator for Android and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
