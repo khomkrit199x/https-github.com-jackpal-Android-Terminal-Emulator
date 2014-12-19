@@ -168,6 +168,12 @@ One relatively straightforward way to figure out which applications conflict wit
 
  4. The conflicting app should fail to reinstall.
 
+For what it is worth, some people have reported that the following application conflicts with Terminal Emulator for Android:
+
+ + jrummy ROM Toolbox Pro
+
+So if you happen to have that app installed it might be the problem.
+
 ### Hey, my bash is vulnerable to the Shellshock bug. How do I fix that?
 
 Shellshock is a security bug in some versions of the bash shell. You can test whether your version of
