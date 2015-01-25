@@ -1,3 +1,7 @@
+## v1.0.64
+
++ Fix RUN_SCRIPT intent permissions issue #374 (daoyuan14, steven676)
+
 ## v1.0.63
 
 + Built with Android Studio 1.0 / NDK r10d
