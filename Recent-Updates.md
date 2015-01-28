@@ -1,3 +1,7 @@
+## v1.0.65
+
++ Make shortcuts work again. issue #374 (steven676)
+
 ## v1.0.64
 
 + Fix RUN_SCRIPT intent permissions issue #374 (daoyuan14, steven676)
