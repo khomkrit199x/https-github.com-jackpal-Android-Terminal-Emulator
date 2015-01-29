@@ -59,8 +59,6 @@ would not work.
 
 If giving these permissions to the terminal emulator makes you uncomfortable, you could download the source code to Terminal Emulator for Android and compile your own version. (Edit the AndroidManifest.xml file to remove the INTERNET and WRITE_EXTERNAL_STORAGE permissions.)
 
-### On Android 5.0 and above, why does Android Terminal Emulator request 
-
 ### Why don't the Arrow Keys / DPAD / Trackball work ?
 They do work, sort of. They send the proper escape sequences for VT-100 terminal arrow keys. It is up to
 the "shell" to interpret these escape sequences.
