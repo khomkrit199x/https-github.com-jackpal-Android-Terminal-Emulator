@@ -1,3 +1,20 @@
+## v1.0.66
+
++ New launcher icon. (nathanel.titane@gmail.com)
+
++ Widget icons can now have multi-line text labels. (FrankWestlake)
+
++ Improved Russian localization. (Timofey Lisunov)
+
++ TEA can now be used to display other application's terminal sessions. See  ITerminal.aidl in the source tree. (Alexander Rvachev)
+
++ Close non-standard file descriptors when launching subprocess. (We tried doing this before in 1.0.55,
+  but didn't know about the ANDROID_PROPERTY_WORKSPACE environment variable.) (Jack Palevich, Alexander Rvachev)
+
++ Fixed minor NDK compiler warnings.
+
+- Dropped support for Android 1.5 (Cupcake). Had to do this to enable the ITerminal.aidl feature.
+
 ## v1.0.65
 
 + Make shortcuts work again. issue #374 (steven676)
