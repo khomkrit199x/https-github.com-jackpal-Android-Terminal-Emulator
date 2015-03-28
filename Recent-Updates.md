@@ -1,3 +1,12 @@
+## v1.0.67
+
++ Fix alpha channel in launcher icon. Should remove the "shadow" next to the the upper-left corner of the icon.
+
++  Changes shared library names to avoid conflict with some custom ROMs. (We do this every time the
+library ABI changes. The new names are:
+    + libjackpal-androidterm5.so
+    + libjackpal-termexec2.so
+
 ## v1.0.66
 
 + New launcher icon. (nathanel.titane@gmail.com)
