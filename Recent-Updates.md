@@ -1,3 +1,9 @@
+## v1.0.68
+
++ Use Material Design when running on Android 5.0+
+
++ Make API level 4 work again (was broken in 1.0.67 due to using a C API not supported by Bionic in API 4.)
+
 ## v1.0.67
 
 + Fix alpha channel in launcher icon. Should remove the "shadow" next to the the upper-left corner of the icon.
