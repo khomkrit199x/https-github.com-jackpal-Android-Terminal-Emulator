@@ -1,3 +1,9 @@
+## v1.0.69
+
++ Fix bugs related to hiding/showing action bar. (dvhh, jackpal)
+
++ Improve German translation. (Lars Grefer)
+
 ## v1.0.68
 
 + Use Material Design when running on Android 5.0+
