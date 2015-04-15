@@ -32,11 +32,11 @@ A: No, I will no longer be accepting pull requests for new features.
 
 Q: But I've got a pull request ready to go ... I just forgot to send it in.
 
-A: OK, go ahead and send it in. If it's small enough, or cool enough, I might accept it. (This is a limited time offer. Probably good until around 6/15/2014.)
+A: Sorry, too late!
 
 Q: Will you be accepting pull requests for new or updated translations?
 
-A: Yes, I will be accepting pull requests for new or updated translations.
+A: No, I am done.
 
 Q: What about existing open github Issues?
 
