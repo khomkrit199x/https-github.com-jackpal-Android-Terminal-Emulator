@@ -1,3 +1,11 @@
+## v1.0.70
+
+ + Allow hiding Material Design Action Bar
+ 
+ + Fix UTF-8 support. (Alexander Rvachev)
+
+ + Fix crash on Android Wear.
+
 ## v1.0.69
 
 + Fix bugs related to hiding/showing action bar. (dvhh, jackpal)
