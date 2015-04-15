@@ -1,5 +1,7 @@
 # How to localize Terminal Emulator for Android
 
+*Note: I am no longer accepting new localizations. This page just documents how things used to work.*
+
 Terminal Emulator for Android has been localized for these locales:
 
 + U.S. English <-- this is the default.
@@ -46,6 +48,8 @@ As new features are added to Terminal Emulator for Android, I add the English st
 When a new string is added, it appears (in English) in all translations. In order to appear in the localized language, the same string needs to be added to the corresponding file in the res/values-XX directory, where "XX" is the locale code. (That's the letters that appear in parentheses in the list of supported locales.  
 
 # How to improve a localization or create a brand-new localization
+
+*Note: I am no longer accepting new localizations. This just documents how things used to work.*
 
 First, send me an email so I know you're working on it!
 
